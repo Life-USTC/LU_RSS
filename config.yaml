@@ -2,4 +2,4 @@ feeds:
   - "https://cdn.werss.weapp.design/api/v1/feeds/fd85a6cc-1073-4d7f-872b-d662c08761cd.xml"
 
 backupDir: ./backup
-hostingURL: "https://life-ustc.github.io/feeds"
+hostingURL: "https://tiankaima.github.io/rss-backup"
