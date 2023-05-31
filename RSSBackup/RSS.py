@@ -8,7 +8,8 @@ import urllib
 import hashlib
 import re
 
-url_matcher = re.compile(r"(https?://[^\s<>\(\)]+)") # avoid matching <> in the url (due to xml)
+# urls to replace should appear in quotes, and should not contain quotes
+url_matcher = re.compile(r'(?<=")(https?://.*?)(?=")')
 
 def backupRSSFeed(feedURL: str, backupDir: str, hostingURL: str):
     """
