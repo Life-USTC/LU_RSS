@@ -1,5 +1,10 @@
 feeds:
   - "https://cdn.werss.weapp.design/api/v1/feeds/fd85a6cc-1073-4d7f-872b-d662c08761cd.xml"
+  - "https://cdn.werss.weapp.design/api/v1/feeds/fcfd427b-87d7-49c9-9979-d8b354158552.xml"
+  - "https://cdn.werss.weapp.design/api/v1/feeds/bcb295d4-190c-4286-ad8e-ca055b6e0769.xml"
+  - "https://cdn.werss.weapp.design/api/v1/feeds/ee381b91-dbc7-4dd5-a434-c96d0d4b8270.xml"
+  - "https://cdn.werss.weapp.design/api/v1/feeds/0e95da5b-b4a4-4f17-9827-8a57a5d155ec.xml"
+  - "https://cdn.werss.weapp.design/api/v1/feeds/5f94a9ea-cd88-450e-9cc6-d2a1b497f9f4.xml"
 
 backupDir: ./backup
 hostingURL: "https://tiankaima.github.io/rss-backup"
