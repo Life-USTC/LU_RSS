@@ -532,13 +532,13 @@
     
 <script type="module" nonce="" reportloaderror>import.meta.url;import("_").catch(()=>1);async function* g(){};window.__vite_is_modern_browser=true;</script>
 <script type="module" nonce="" reportloaderror>!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
-<script type="module" crossorigin src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/error.lick584b7d09f1f3.js" nonce="" reportloaderror></script>
-<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/modulepreload-polyfill.lick584b4abee2a4.js" reportloaderror>
-<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/event.lick584b7737af2f.js" reportloaderror>
-<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/background_color.lick584b70a72089.js" reportloaderror>
-<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/comm_utils.lick584b19c2ff9f.js" reportloaderror>
-<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/set_article_read.lick584b9fb9463c.js" reportloaderror>
-<link rel="stylesheet" href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/msg.lick584b9ff11d8e.css" reportloaderror>
+<script type="module" crossorigin src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/error.libemane4cd9cff4.js" nonce="" reportloaderror></script>
+<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/modulepreload-polyfill.libemane4abee2a4.js" reportloaderror>
+<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/event.libemane7737af2f.js" reportloaderror>
+<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/background_color.libemane41ad39a6.js" reportloaderror>
+<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/comm_utils.libemaned0c92192.js" reportloaderror>
+<link rel="modulepreload" crossorigin href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/set_article_read.libemanee97f5011.js" reportloaderror>
+<link rel="stylesheet" href="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/msg.libemane9ff11d8e.css" reportloaderror>
 
     <style>
       .cooldown_tips {
@@ -727,8 +727,8 @@ try {
 
 
 <script nomodule nonce="" reportloaderror>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-<script nomodule crossorigin id="vite-legacy-polyfill" src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/polyfills-legacy.lick584be0cef70e.js" nonce="" reportloaderror></script>
-<script nomodule crossorigin id="vite-legacy-entry" data-src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/error-legacy.lick584b86bcdda3.js" nonce="" reportloaderror>System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+<script nomodule crossorigin id="vite-legacy-polyfill" src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/polyfills-legacy.libemane2f8e165f.js" nonce="" reportloaderror></script>
+<script nomodule crossorigin id="vite-legacy-entry" data-src="//res.wx.qq.com/mmbizappmsg/zh_CN/htmledition/js/assets/error-legacy.libemane17d7f53b.js" nonce="" reportloaderror>System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
 
   </body>
 </html>
