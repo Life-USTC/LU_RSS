@@ -730,7 +730,7 @@ Properties in the <code>/terms/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isRequiredBy">isRequiredBy</a
               >,
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued">issued</a
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued">issued</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isVersionOf">isVersionOf</a
               >,
@@ -776,7 +776,6 @@ Properties in the <code>/terms/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/valid">valid</a
               >
-
 </td>
 </tr>
 <tr>
@@ -2251,7 +2250,7 @@ Property
 <td>
 <ul>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2felements%2f1.1%2frelation">Relation</a> (http://purl.org/dc/elements/1.1/relation)</li>
-<li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2fterms%2frelation">Relation</a> (http://purl.org/dc/terms/relation)</li>
+ <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2fterms%2frelation">Relation</a> (http://purl.org/dc/terms/relation)</li>
 </ul>
 </td>
 </tr>
@@ -2344,7 +2343,6 @@ Property
 </tr>
 <tr id="http://purl.org/dc/terms/instructionalMethod" class="divider-title-row">
 <td id="instructionalMethod" colspan="2">
-
 Term Name:
 instructionalMethod
  <div class="more-details-link">
@@ -5086,7 +5084,8 @@ LicenseDocument
                 >
 </div>
 </td>
- </tr>
+</tr>
+
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/LicenseDocument</td>
@@ -5324,8 +5323,6 @@ MethodOfInstruction
 Class
 </td>
 </tr>
-
-
 <tr id="http://purl.org/dc/terms/PeriodOfTime" class="divider-title-row">
 <td id="PeriodOfTime" colspan="2">
 Term Name:
@@ -5442,7 +5439,7 @@ Policy
 </tr>
 <tr>
 <td class="field-name">Label</td>
- <td>Policy</td>
+<td>Policy</td>
 </tr>
 <tr>
 <td class="field-name">Definition</td>
@@ -5666,7 +5663,7 @@ Event
                 >
 </div>
 </td>
-</tr>
+ </tr>
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/dcmitype/Event</td>
@@ -5998,7 +5995,7 @@ Class
 <td><a href="http://purl.org/dc/dcmitype/Image">http://purl.org/dc/dcmitype/Image</a></td>
 </tr>
 <tr id="http://purl.org/dc/dcmitype/Text" class="divider-title-row">
-<td id="Text" colspan="2">
+ <td id="Text" colspan="2">
 Term Name:
 Text
 <div class="more-details-link">
@@ -6312,7 +6309,7 @@ BIBO
 <li>
 <a href="/groups/governing-board/" class="text-base text-gray-500 hover:text-gray-900">Governance</a
                 >
-</li>
+ </li>
 <li>
 <a href="/groups/usage-board/" class="text-base text-gray-500 hover:text-gray-900">Usage Board</a
                 >
@@ -6384,6 +6381,6 @@ Tue, 09 May 2023 12:29:52 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d0d57bb4a3bcff9","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d0db201bc372cc3","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
