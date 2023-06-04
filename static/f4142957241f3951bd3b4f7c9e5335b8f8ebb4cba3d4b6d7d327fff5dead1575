@@ -325,7 +325,7 @@ A basic guide in the use of Dublin Core and other DCMI
 vocabularies.
 </p>
 </a>
-<a href="/resources/glossary/" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
+ <a href="/resources/glossary/" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
 <p class="text-base font-medium text-gray-900">Glossary</p>
 <p class="mt-1 text-sm text-gray-500">
 A guide to terminology used in the DCMI community, past and
@@ -809,7 +809,6 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/subject">subject</a
               >,
-
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/title">title</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/type">type</a
@@ -909,7 +908,6 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/ProvenanceStatement">ProvenanceStatement</a
               >,
-
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/RightsStatement">RightsStatement</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/SizeOrDuration">SizeOrDuration</a
@@ -2308,6 +2306,7 @@ identifier
 </div>
 </td>
 </tr>
+
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/identifier</td>
@@ -2507,7 +2506,7 @@ Property
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2felements%2f1.1%2frelation">Relation</a> (http://purl.org/dc/elements/1.1/relation)</li>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2fterms%2frelation">Relation</a> (http://purl.org/dc/terms/relation)</li>
 </ul>
- </td>
+</td>
 </tr>
 <tr id="http://purl.org/dc/terms/isReplacedBy" class="divider-title-row">
 <td id="isReplacedBy" colspan="2">
@@ -2602,7 +2601,7 @@ issued
                   ></a
                 >
 </div>
-</td>
+ </td>
 </tr>
 <tr>
 <td class="field-name">URI</td>
@@ -3474,9 +3473,8 @@ Property
 <td>
 <ul>
 <li>http://purl.org/dc/terms/PeriodOfTime</li>
-
 </ul>
-</td>
+ </td>
 </tr>
 <tr>
 <td class="field-name">Subproperty of</td>
@@ -6381,6 +6379,6 @@ Tue, 09 May 2023 12:29:52 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d21a1f6bca796e3","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d21ee345abb643b","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
