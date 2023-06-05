@@ -11,7 +11,8 @@ import json
 from typing import Optional
 
 # urls to replace should appear in quotes, and should not contain quotes
-url_matcher = re.compile(r'(?<=")(https?://.*?)(?=")')
+url_matcher = re.compile(
+    r'(?<=["])(?:http|https):\/\/[a-zA-Z0-9\?&%-=_\.\/]*(?=["])')
 
 
 def backupRSSFeed(feedURL: str, backupDir: str, hostingURL: str, xmlFilename: Optional[str] = None):
@@ -82,16 +83,19 @@ def backupRSSFeed(feedURL: str, backupDir: str, hostingURL: str, xmlFilename: Op
     urls = url_matcher.findall(original_xml)
 
     # download all urls
+    print(urls)
     for url in urls:
+        # _url = url[0]
+        _url = url
         try:
             # get the filename
-            filename = hashlib.sha256(url.encode("utf-8")).hexdigest()
+            filename = hashlib.sha256(_url.encode("utf-8")).hexdigest()
             filenamePath = os.path.join(staticDir, filename)
 
-            print("Downloading " + url + " to " + filenamePath)
+            print("Downloading " + _url + " to " + filenamePath)
 
             # download the file
-            request = urllib.request.Request(url, headers=headers)
+            request = urllib.request.Request(_url, headers=headers)
             with urllib.request.urlopen(request) as response:
                 with open(filenamePath, "wb") as f:
                     f.write(response.read())
@@ -99,9 +103,9 @@ def backupRSSFeed(feedURL: str, backupDir: str, hostingURL: str, xmlFilename: Op
             # replace the url in the xml
             if hostingURL is not None:
                 original_xml = original_xml.replace(
-                    url, hostingURL + "/static/" + filename)
+                    _url, hostingURL + "/static/" + filename)
         except Exception as e:
-            print("Error downloading " + url + ": " + str(e))
+            print("Error downloading " + _url + ": " + str(e))
 
     # ------ Saving the feed ------
 
