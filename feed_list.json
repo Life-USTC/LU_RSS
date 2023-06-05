@@ -1,0 +1,38 @@
+[
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/fd85a6cc-1073-4d7f-872b-d662c08761cd.xml",
+        "xml": "./backup/xml/mp_ustc_main.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_main.xml"
+    },
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5927\u7814\u7a76\u751f\u4f1a\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/fcfd427b-87d7-49c9-9979-d8b354158552.xml",
+        "xml": "./backup/xml/mp_ustc_graduate_student_union.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_graduate_student_union.xml"
+    },
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u9752\u6625\u79d1\u5927\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/bcb295d4-190c-4286-ad8e-ca055b6e0769.xml",
+        "xml": "./backup/xml/mp_ustc_youth_league_committee.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_youth_league_committee.xml"
+    },
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5927\u672c\u79d1\u62db\u751f\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/ee381b91-dbc7-4dd5-a434-c96d0d4b8270.xml",
+        "xml": "./backup/xml/mp_ustc_undergraduate_admission_office.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_undergraduate_admission_office.xml"
+    },
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5927\u5c11\u5e74\u73ed\u5b66\u9662\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/0e95da5b-b4a4-4f17-9827-8a57a5d155ec.xml",
+        "xml": "./backup/xml/mp_ustc_sgy.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_sgy.xml"
+    },
+    {
+        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66\u5b66\u751f\u4f1a\u300d",
+        "url": "https://cdn.werss.weapp.design/api/v1/feeds/5f94a9ea-cd88-450e-9cc6-d2a1b497f9f4.xml",
+        "xml": "./backup/xml/mp_ustc_undergraduate_student_union.xml",
+        "backupURL": "https://rss-cdn.tiankaima.dev/xml/mp_ustc_undergraduate_student_union.xml"
+    }
+]
