@@ -9,14 +9,12 @@ import RSSBackup
 # load config
 with open("config.yaml", "r") as f:
     config = yaml.safe_load(f)
-    
-def checkConfig(name: str):
+
+
+for name in ["feeds", "backupDir", "hostingURL"]:
     if not name in config:
         print(f"config.yaml is invalid! No {name} found!")
         sys.exit(1)
-        
-for name in ["feeds", "backupDir", "hostingURL"]:
-    checkConfig(name)
 
 # create backupDir if it doesn't exist
 # backupDir is relative path to main.py
@@ -25,5 +23,17 @@ if not os.path.exists(backupDir):
     os.makedirs(backupDir)
 
 # backup all feeds
-for feedURL in config["feeds"]:
-    RSSBackup.backupRSSFeed(feedURL, backupDir, config["hostingURL"])
+for feed in config["feeds"]:
+    # here, feed could either be a string or a dict
+    if isinstance(feed, str):
+        RSSBackup.backupRSSFeed(feedURL=feed,
+                            backupDir=backupDir,
+                            hostingURL=config["hostingURL"])
+    elif isinstance(feed, dict):
+        RSSBackup.backupRSSFeed(feedURL=feed["url"],
+                            backupDir=backupDir,
+                            hostingURL=config["hostingURL"],
+                            xmlFilename=feed["xmlFilename"])
+    else:
+        print("Invalid feed: " + str(feed))
+        sys.exit(1)
