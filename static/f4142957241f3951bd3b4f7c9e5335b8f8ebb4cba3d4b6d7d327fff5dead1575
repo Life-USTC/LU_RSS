@@ -181,7 +181,7 @@ expressing citations and bibliographic references.
 <p class="text-base font-medium text-gray-900">DCTAP</p>
 <p class="mt-1 text-sm text-gray-500">
 The DC Tabular Application Profiles specification is a simple model for application profiles that can be developed in a spreadsheet program.
- </p>
+</p>
 </a>
 </div>
 </div>
@@ -554,6 +554,7 @@ DCMI 2022 Virtual Conference
 <div class="mx-auto max-w-7xl px-4 sm:px-6 mt-6 mb-6">
 <nav class="flex" aria-label="Breadcrumb">
 <ol role="list" class="flex items-center space-x-4">
+
 <li>
 <div>
 <a href="/" class="text-gray-400 hover:text-gray-500">
@@ -809,7 +810,6 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/subject">subject</a
               >,
-
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/title">title</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/type">type</a
@@ -940,6 +940,7 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Sound">Sound</a
               >,
+
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/StillImage">StillImage</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/dcmitype/Text">Text</a
@@ -1380,7 +1381,7 @@ alternative
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/alternative/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
- </div>
+</div>
 </td>
 </tr>
 <tr>
@@ -2505,8 +2506,8 @@ Property
 <ul>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2felements%2f1.1%2frelation">Relation</a> (http://purl.org/dc/elements/1.1/relation)</li>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2fterms%2frelation">Relation</a> (http://purl.org/dc/terms/relation)</li>
-</ul>
- </td>
+ </ul>
+</td>
 </tr>
 <tr id="http://purl.org/dc/terms/isReplacedBy" class="divider-title-row">
 <td id="isReplacedBy" colspan="2">
@@ -3362,6 +3363,7 @@ Property
 </tr>
 <tr id="http://purl.org/dc/terms/subject" class="divider-title-row">
 <td id="subject" colspan="2">
+
 Term Name:
 subject
 <div class="more-details-link">
@@ -3473,9 +3475,8 @@ Property
 <td>
 <ul>
 <li>http://purl.org/dc/terms/PeriodOfTime</li>
-
 </ul>
-</td>
+ </td>
 </tr>
 <tr>
 <td class="field-name">Subproperty of</td>
@@ -4216,8 +4217,8 @@ DDC
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/DDC/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
- </div>
-</td>
+</div>
+ </td>
 </tr>
 <tr>
 <td class="field-name">URI</td>
@@ -4339,7 +4340,7 @@ Vocabulary Encoding Scheme
 <tr id="http://purl.org/dc/terms/MESH" class="divider-title-row">
 <td id="MESH" colspan="2">
 Term Name:
- MESH
+MESH
  <div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/MESH/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
@@ -5274,7 +5275,7 @@ MethodOfAccrual
                 >
 </div>
 </td>
-</tr>
+ </tr>
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/MethodOfAccrual</td>
@@ -5396,7 +5397,7 @@ Class
 <td id="PhysicalResource" colspan="2">
 Term Name:
 PhysicalResource
- <div class="more-details-link">
+<div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/PhysicalResource/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
@@ -5508,6 +5509,7 @@ RightsStatement
 Class
 </td>
 </tr>
+
 <tr id="http://purl.org/dc/terms/SizeOrDuration" class="divider-title-row">
 <td id="SizeOrDuration" colspan="2">
 Term Name:
@@ -5841,6 +5843,7 @@ Class
 <td class="field-name">Member Of:</td>
 <td><a href="http://purl.org/dc/terms/DCMIType">http://purl.org/dc/terms/DCMIType</a></td>
 </tr>
+
 <tr id="http://purl.org/dc/dcmitype/Service" class="divider-title-row">
 <td id="Service" colspan="2">
 Term Name:
@@ -5957,7 +5960,7 @@ Class
 Term Name:
 StillImage
 <div class="more-details-link">
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/StillImage/"><span class="dcmi-terms-more-details-link">More details</span
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/StillImage/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -6380,6 +6383,6 @@ Tue, 06 Jun 2023 14:56:00 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d47fc9f4e032ff4","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d485224af0f4b85","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
