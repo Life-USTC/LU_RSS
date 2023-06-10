@@ -254,7 +254,7 @@ Occasional webinars and online tutorials orgainized by the DCMI.
 <p class="mt-1 text-sm text-gray-500">
 DCMI is defined by its community which is responsible for the
 innovative developments and evolving good practices.
- </p>
+</p>
 </a>
 <a href="/groups/education-committee/" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
 <p class="text-base font-medium text-gray-900">
@@ -280,7 +280,7 @@ DCMI work on the LRMI family of metadata specifications.
 Application Profiles Working Group
 </p>
 <p class="mt-1 text-sm text-gray-500">
-Working Group for a revised framework to support application
+ Working Group for a revised framework to support application
 profiles, a revised abstract model, and core vocabulary of
 components and constraints.
 </p>
@@ -301,7 +301,7 @@ components and constraints.
 <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" x-description="'Solutions' flyout menu, show/hide based on flyout menu state." class="absolute z-10 -ml-4 mt-3 w-screen max-w-md -translate-x-1/2 transform px-2 sm:px-0 2xl:left-1/2 2xl:ml-0 2xl:-translate-x-1/2" x-ref="panel" @click.away="open = false">
 <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
- <a href="/blog/" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
+<a href="/blog/" class="-m-3 block rounded-md p-3 transition duration-150 ease-in-out hover:bg-gray-50">
 <p class="text-base font-medium text-gray-900">DCMI Blog</p>
 <p class="mt-1 text-sm text-gray-500">
 Occasional blog posts report on developments in metadata
@@ -415,7 +415,7 @@ Collaborations
 </svg>
 </a>
 <a href="https://github.com/dcmi" class="text-gray-400 hover:text-orange-500">
-<span class="sr-only">GitHub</span>
+ <span class="sr-only">GitHub</span>
 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
 </svg>
@@ -554,7 +554,6 @@ DCMI 2022 Virtual Conference
 <div class="mx-auto max-w-7xl px-4 sm:px-6 mt-6 mb-6">
 <nav class="flex" aria-label="Breadcrumb">
 <ol role="list" class="flex items-center space-x-4">
-
 <li>
 <div>
 <a href="/" class="text-gray-400 hover:text-gray-500">
@@ -810,7 +809,6 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/subject">subject</a
               >,
-
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/title">title</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/type">type</a
@@ -910,7 +908,6 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/ProvenanceStatement">ProvenanceStatement</a
               >,
-
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/RightsStatement">RightsStatement</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/SizeOrDuration">SizeOrDuration</a
@@ -1382,7 +1379,7 @@ alternative
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/alternative/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
- </div>
+</div>
 </td>
 </tr>
 <tr>
@@ -1649,7 +1646,7 @@ Property
 </td>
 </tr>
 <tr id="http://purl.org/dc/terms/coverage" class="divider-title-row">
- <td id="coverage" colspan="2">
+<td id="coverage" colspan="2">
 Term Name:
 coverage
 <div class="more-details-link">
@@ -2164,6 +2161,7 @@ Property
 </ul>
 </td>
 </tr>
+
 <tr>
 <td class="field-name">Subproperty of</td>
 <td>
@@ -2645,7 +2643,7 @@ Property
 Term Name:
 isVersionOf
 <div class="more-details-link">
- <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/isVersionOf/"><span class="dcmi-terms-more-details-link">More details</span
+<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/isVersionOf/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -2992,7 +2990,7 @@ publisher
 </tr>
 <tr>
 <td class="field-name">Definition</td>
-<td>An entity responsible for making the resource available.</td>
+ <td>An entity responsible for making the resource available.</td>
 </tr>
 <tr>
 <td class="field-name">Type of Term</td>
@@ -3088,7 +3086,7 @@ relation
 <tr>
 <td class="field-name">Type of Term</td>
 <td>
- Property
+Property
 </td>
 </tr>
 <tr>
@@ -3412,7 +3410,7 @@ tableOfContents
                 >
 </div>
 </td>
-</tr>
+ </tr>
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/tableOfContents</td>
@@ -3797,7 +3795,7 @@ description
 </tr>
 <tr>
 <td class="field-name">Type of Term</td>
-<td>
+ <td>
 Property
 </td>
 </tr>
@@ -3979,7 +3977,7 @@ relation
 <tr>
 <td class="field-name">Comment</td>
 <td>Recommended practice is to identify the related resource by means of a URI. If this is not possible or feasible, a string conforming to a formal identification system may be provided.</td>
-</tr>
+ </tr>
 <tr>
 <td class="field-name">Type of Term</td>
 <td>
@@ -4270,7 +4268,6 @@ IMT
 Vocabulary Encoding Scheme
 </td>
 </tr>
-
 <tr>
 <td class="field-name">See</td>
 <td><a href="http://www.iana.org/assignments/media-types/">http://www.iana.org/assignments/media-types/</a></td>
@@ -4280,7 +4277,7 @@ Vocabulary Encoding Scheme
 Term Name:
 LCC
 <div class="more-details-link">
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LCC/"><span class="dcmi-terms-more-details-link">More details</span
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LCC/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -4386,7 +4383,7 @@ NLM
 <td>http://purl.org/dc/terms/NLM</td>
 </tr>
 <tr>
- <td class="field-name">Label</td>
+<td class="field-name">Label</td>
 <td>NLM</td>
 </tr>
 <tr>
@@ -4632,7 +4629,7 @@ Period
 <td class="field-name">Type of Term</td>
 <td>
 Datatype
-</td>
+ </td>
 </tr>
 <tr>
 <td class="field-name">See</td>
@@ -4737,7 +4734,6 @@ RFC3066
 Datatype
 </td>
 </tr>
-
 <tr>
 <td class="field-name">See</td>
 <td><a href="http://www.ietf.org/rfc/rfc3066.txt">http://www.ietf.org/rfc/rfc3066.txt</a></td>
@@ -4975,7 +4971,7 @@ BibliographicResource
 <td class="field-name">Definition</td>
 <td>A book, article, or other documentary resource.</td>
 </tr>
- <tr>
+<tr>
 <td class="field-name">Type of Term</td>
 <td>
 Class
@@ -4986,7 +4982,7 @@ Class
 Term Name:
 FileFormat
 <div class="more-details-link">
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/FileFormat/"><span class="dcmi-terms-more-details-link">More details</span
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/FileFormat/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -5455,8 +5451,8 @@ Class
 <tr id="http://purl.org/dc/terms/ProvenanceStatement" class="divider-title-row">
 <td id="ProvenanceStatement" colspan="2">
 Term Name:
-ProvenanceStatement
-<div class="more-details-link">
+ ProvenanceStatement
+ <div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/ProvenanceStatement/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
@@ -5552,7 +5548,7 @@ Class
 Term Name:
 Standard
 <div class="more-details-link">
- <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/Standard/"><span class="dcmi-terms-more-details-link">More details</span
+<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/Standard/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -6110,7 +6106,7 @@ rangeIncludes
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcam/rangeIncludes/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
- </div>
+</div>
 </td>
 </tr>
 <tr>
@@ -6230,7 +6226,7 @@ best practices across the metadata ecology.
 <div>
 <h3 class="text-base font-medium text-gray-900">Specifications</h3>
 <ul role="list" class="mt-4 space-y-4">
- <li>
+<li>
 <a href="/specifications/dublin-core/dcmi-terms/" class="text-base text-gray-500 hover:text-gray-900">
 DCMI Metadata Terms
 </a>
@@ -6315,7 +6311,7 @@ BIBO
 <a href="/groups/usage-board/" class="text-base text-gray-500 hover:text-gray-900">Usage Board</a
                 >
 </li>
- </ul>
+</ul>
 </div>
 <div class="mt-12 md:mt-0">
 <h3 class="text-base font-medium text-gray-900">Website</h3>
@@ -6382,6 +6378,6 @@ Tue, 06 Jun 2023 14:56:00 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d5347dbda47082d","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d53a8588a334636","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
