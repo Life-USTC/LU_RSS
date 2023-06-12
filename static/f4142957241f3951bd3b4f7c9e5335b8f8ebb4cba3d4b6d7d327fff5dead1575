@@ -280,7 +280,7 @@ DCMI work on the LRMI family of metadata specifications.
 Application Profiles Working Group
 </p>
 <p class="mt-1 text-sm text-gray-500">
-Working Group for a revised framework to support application
+ Working Group for a revised framework to support application
 profiles, a revised abstract model, and core vocabulary of
 components and constraints.
 </p>
@@ -289,7 +289,6 @@ components and constraints.
 </div>
 </div>
 </div>
-
 <a href="/news/" class="text-base font-medium text-gray-500 hover:text-gray-900">News</a
   >
 <div class="relative" x-data="Components.popover({ open: false, focus: false })" x-init="init()" @keydown.escape="onEscape" @close-popover-group.window="onClosePopoverGroup">
@@ -416,7 +415,7 @@ Collaborations
 </svg>
 </a>
 <a href="https://github.com/dcmi" class="text-gray-400 hover:text-orange-500">
-<span class="sr-only">GitHub</span>
+ <span class="sr-only">GitHub</span>
 <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
 </svg>
@@ -810,6 +809,7 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/subject">subject</a
               >,
+
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/title">title</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/elements/1.1/type">type</a
@@ -909,6 +909,7 @@ Properties in the <code>/elements/1.1/</code> namespace:
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/ProvenanceStatement">ProvenanceStatement</a
               >,
+
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/RightsStatement">RightsStatement</a
               >,
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/SizeOrDuration">SizeOrDuration</a
@@ -962,7 +963,7 @@ Properties in the <code>/elements/1.1/</code> namespace:
 </table>
 <br />
 <h2 id="section-1">Section 1: Introduction and Definitions</h2>
- <p>This document is an up-to-date, authoritative specification of all metadata terms maintained by the Dublin Core™ Metadata Initiative. Included are the fifteen terms of the Dublin Core™ Metadata Element Set (also known as &quot;the Dublin Core&quot;) plus several dozen properties, classes, datatypes, and vocabulary encoding schemes. The &quot;Dublin Core&quot; plus these extension vocabularies are collectively referred to as &quot;DCMI metadata terms&quot; (&quot;Dublin Core terms&quot; for short). These terms are intended to be used in combination with metadata terms from other, compatible vocabularies in the context of application profiles.</p>
+<p>This document is an up-to-date, authoritative specification of all metadata terms maintained by the Dublin Core™ Metadata Initiative. Included are the fifteen terms of the Dublin Core™ Metadata Element Set (also known as &quot;the Dublin Core&quot;) plus several dozen properties, classes, datatypes, and vocabulary encoding schemes. The &quot;Dublin Core&quot; plus these extension vocabularies are collectively referred to as &quot;DCMI metadata terms&quot; (&quot;Dublin Core terms&quot; for short). These terms are intended to be used in combination with metadata terms from other, compatible vocabularies in the context of application profiles.</p>
 <p>DCMI metadata terms are expressed in RDF vocabularies for use in Linked Data. Creators of non-RDF metadata can use the terms in contexts such as XML, JSON, UML, or relational databases by disregarding both the global identifier and the formal implications of the RDF-specific aspects of term definitions. Such users can take domain, range, subproperty, and subclass relations as usage suggestions and focus on the natural-language text of definitions, usage notes, and examples.</p>
 <p>Each term is identified with a Uniform Resource Identifier (URI), a global identifier usable in Linked Data. Term URIs resolve to the (<a href="/specifications/dublin-core/dcmi-namespace/">DCMI Metadata Terms</a>) document when selected in a browser or, when referenced programmatically by RDF applications, to one of <a href="/schemas/rdfs/">four RDF schemas</a>. The scope of each RDF schema corresponds to a &quot;DCMI namespace&quot;, or set of DCMI metadata terms that are identified using a common base URI, as enumerated in the <a href="/specifications/dublin-core/dcmi-namespace/">DCMI Namespace Policy</a>. In Linked Data, the URIs for DCMI namespaces are often declared as prefixes in order to make data, queries, and schemas more concise and readable.</p>
 <p>The four DCMI namespaces are:</p>
@@ -2309,7 +2310,7 @@ identifier
 </tr>
 <tr>
 <td class="field-name">URI</td>
- <td>http://purl.org/dc/terms/identifier</td>
+<td>http://purl.org/dc/terms/identifier</td>
 </tr>
 <tr>
 <td class="field-name">Label</td>
@@ -2409,6 +2410,7 @@ isFormatOf
 <td class="field-name">Comment</td>
 <td>This property is intended to be used with non-literal values. This property is an inverse property of Has Format.</td>
 </tr>
+
 <tr>
 <td class="field-name">Type of Term</td>
 <td>
@@ -5275,7 +5277,7 @@ MethodOfAccrual
                 >
 </div>
 </td>
- </tr>
+</tr>
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/MethodOfAccrual</td>
@@ -5397,7 +5399,7 @@ Class
 <td id="PhysicalResource" colspan="2">
 Term Name:
 PhysicalResource
-<div class="more-details-link">
+ <div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/PhysicalResource/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
@@ -5509,7 +5511,6 @@ RightsStatement
 Class
 </td>
 </tr>
-
 <tr id="http://purl.org/dc/terms/SizeOrDuration" class="divider-title-row">
 <td id="SizeOrDuration" colspan="2">
 Term Name:
@@ -5733,7 +5734,7 @@ Class
 Term Name:
 InteractiveResource
 <div class="more-details-link">
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/InteractiveResource/"><span class="dcmi-terms-more-details-link">More details</span
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/InteractiveResource/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -6382,6 +6383,6 @@ Tue, 06 Jun 2023 14:56:00 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d63180c5e6e1fdd","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d63821e4ad31761","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
