@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+	<title>登入页面</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=1300,initial-scale=1.0,maximum-scale=1,user-scalable=yes" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <!--<title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE" th:text="#{system.title}">教务系统</title>-->
+
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
+  <link rel="stylesheet" href="/static/eams-ui/css/eams-ui.css?v=00003" />
+  <link rel="stylesheet" href="/static/eams-ui/css/eams-ui-plugin.min.css?v=00004" />
+  <link rel="stylesheet" href="/static/helper/css/info-page.css?v=00002" />
+  <link rel="stylesheet" href="/static/helper/css/generate-template.css?v=00002" />
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="/static/eams-ui/js/html5shiv.min.js?v=00002"></script>
+  <script src="/static/eams-ui/js/respond.min.js?v=00002"></script>
+  <![endif]-->
+
+  <script src="/static/eams-ui/js/eams-ui.min.js?v=1"></script>
+  <!--<script th:src="@{/static/eams-ui/js/eams-ui.js?v=1}"></script>-->
+  <script src="/static/eams-ui/js/eams-ui.zh.min.js?v=00002"></script>
+  <script>
+    // 设置 context path, js会需要用
+    window.CONTEXT_PATH = '';
+    window.LOCALE = 'zh';
+  </script>
+  <script type="text/javascript" src="/static/helper/ustc-common-helper.js?v=3"></script>
+  <script type="text/javascript" src="/static/helper/search-page-helper1.js?v=00003"></script>
+  <script type="text/javascript" src="/static/helper/search-form-helper.js"></script>
+  <script type="text/javascript" src="/static/helper/notIndex-page-helper.js?v=00003"></script>
+  <script type="text/javascript" src="/static/helper/info-page.js?v=00003"></script>
+  <script type="text/javascript" src="/static/helper/student-selectize.js?v=00003"></script>
+  <script type="text/javascript" src="/static/helper/datatable-column-tools.js?v=00004"></script>
+  <script type="text/javascript" src="/static/thymeleaf-component/common.js?v=00005"></script>
+  <script src="/static/eams-ui/js/global-iconfont.js?v=00000"></script>
+  <script>
+    /*<![CDATA[*/
+    $(function () {
+      var infoMessages = null;
+      if (!infoMessages) {
+        infoMessages = [];
+      }
+      $.each(infoMessages, function (index, message) {
+        new PNotify({
+          title: '消息',
+          text: message,
+          type: 'info',
+          delay: 1000
+        });
+      });
+
+      var successMessages = null;
+      if (!successMessages) {
+        successMessages = [];
+      }
+      $.each(successMessages, function (index, message) {
+        new PNotify({
+          title: '成功',
+          text: message,
+          type: 'success',
+          delay: 1000
+        });
+      });
+
+      var errorMessages = null;
+      if (!errorMessages) {
+        errorMessages = [];
+      }
+      $.each(errorMessages, function (index, message) {
+        new PNotify({
+          title: '错误',
+          text: message,
+          type: 'error',
+          delay: 5000
+        });
+      });
+
+      var noticeMessages = null;
+      if (!noticeMessages) {
+        noticeMessages = [];
+      }
+      $.each(noticeMessages, function (index, message) {
+        new PNotify({
+          title: '提示',
+          text: message,
+          type: 'notice',
+          delay: 1000
+        });
+      });
+
+      $(document).ajaxError(function (event, request) {
+
+        if (request.responseText && request.status == 200 && request.statusText == "parsererror") {
+          window.location.href = self.location.href;
+        }
+
+        if (!request.responseJSON) {
+          return;
+        }
+
+        var data = {};
+        var message = request.responseJSON.message;
+        if (request.responseJSON.errors && request.responseJSON.errors.length > 0) {
+          message = request.responseJSON.errors[0].defaultMessage;
+        }
+        data['errError'] = request.responseJSON.error;
+        data['errException'] = request.responseJSON.exception;
+        data['errMessage'] = message;
+        data['errPath'] = request.responseJSON.path;
+        data['errStatus'] = request.responseJSON.status + ' (' + request.responseJSON.cookieString + ')';
+        data['errTimestamp'] = request.responseJSON.timestamp;
+        data['errTrace'] = request.responseJSON.trace;
+
+        new PNotify({
+          text: request.responseJSON.prompt,
+          type: 'error',
+          delay: 50000,
+          icon: false,
+          width: '350px',
+          min_height: '82px',
+          confirm: {
+            confirm: true,
+            align: 'right',
+            buttons: [
+              {
+                text: '上报错误',
+                addClass: "btn-sm",
+                click: function () {
+                  $.post({
+                    url: window.CONTEXT_PATH +'/sys-error-msg/save',
+                    contentType: 'application/json',
+                    dataType: 'json',
+                    data: JSON.stringify(data),
+                    success: function (response) {
+                      if ($(".bootbox-alert").length == 0) {
+                        bootbox.alert(response.content);
+                      }
+                    }
+                  })
+                }
+              }, {addClass: 'hide'}
+            ]
+          }
+        });
+
+      });
+
+    });
+
+    window.preventFromSubmitTwice = function($form) {
+      $form.submit(function() {
+        $(this).submit(function() {
+          return false;
+        });
+        return true;
+      });
+    }
+    window.preventFromSubmitTwice($('#save-form'));
+
+    window.semesterURIUtil = function (originalUri, insertBefore, semesterId) {
+      var semesterPattern = "/semester/";
+      if (originalUri.indexOf(semesterPattern) != -1) {
+        // remove semester pattern
+        var semesterPatternStartAt = originalUri.indexOf(semesterPattern);
+        var semesterPatternEndAt = semesterPatternStartAt +
+            originalUri.substring(semesterPatternStartAt, originalUri.length).indexOf("/", semesterPattern.length);
+        originalUri = originalUri.substring(0, semesterPatternStartAt) + originalUri.substring(semesterPatternEndAt, originalUri.length);
+      }
+      var appendIndex = originalUri.indexOf(insertBefore);
+      return originalUri.substring(0, appendIndex) + semesterPattern + semesterId + originalUri.substring(appendIndex, originalUri.length);
+    };
+
+
+//    eamsUiUtil.cascadeScrollParentWindowToTop(window);
+
+    /*]]>*/
+  </script>
+  <link rel="stylesheet" href="/static/system/pathNav.css?v=00002" />
+  <style type="text/css" media="print">
+    .path-nav {
+      display: none
+    }
+  </style>
+  <style type="text/css">
+    .path-nav{
+      color: #999999;
+      padding:10px 10px;
+    }
+    #refresh{
+      margin-left:10px;
+      cursor:pointer;
+      background-color:#eee;
+      transition:ease 0.3s;
+      color:#999;
+      border-radius: 4px;
+    }
+    #refresh:hover{
+      color:#fff;
+      background-color:#428bca;
+    }
+    .selectize-dropdown {
+      width: auto !important;
+      min-width: 100%;
+    }
+
+    .selectize-dropdown-content > div.option {
+      white-space: nowrap;
+    }
+  </style>
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+	<link rel="stylesheet" href="/static/eams-ui/css/eams-ui-home.min.css" />
+	<link rel="stylesheet" href="/static/login/css/login.css?v=003" />
+	<script type="text/javascript" src="/static/cryptoJS/sha1.js"></script>
+</head>
+
+<!-- thymeleaf自定义组件代码锚点 -->
+<script compo="true"></script>
+<!-- thymeleaf自定义组件代码锚点 -->
+
+<body class="e-home e-home-bg1">
+<div class="path-nav hide">
+  <span>您的当前位置：<span id="path-nav-home"></span></span>   <button id="refresh" class="btn btn-xs">刷新</button>
+</div>
+<div class="clearfix"></div>
+<body class="e-home e-home-bg1">
+
+<div id="logo">
+</div>
+<div id="login-wrapper">
+  
+    <a type="button" id="login-unified-wrapper" href="/ucas-sso/login">
+      <div id="login-unified-icon"></div>
+      <div>统一身份认证登录</div>
+    </a>
+  
+  <div id="login-other-wrapper">
+  </div>
+  <a style="align-self: center; background-color: #55AD08; color: #fff; font-size: 18px; border-radius: 2em; padding: 0.3em 1.2em;" href="https://catalog.ustc.edu.cn/query">公共查询</a>
+</div>
+<footer id="footer-wrapper">
+  版权所有:<span style="text-align:center;">Version: <span>1.0-SNAPSHOT</span>
+          Build Time: <span>2023-06-17 21:02:21</span></span>
+</footer>
+
+<script>
+  // <![CDATA[
+  $(function () {
+
+    if (top.location.href != self.location.href) {
+      top.location.href = self.location.href;
+    }
+
+    var $captchaPart = $(".captcha-part");
+    var $captchaImage = $('#captcha-image');
+    $captchaImage.click(function (event) {
+      event.preventDefault();
+      $(this).find('img').remove();
+      $(this).append("<img width='75' src='" + window.CONTEXT_PATH + "/login-captcha" + '?d=' + new Date().getTime() + "' />");
+    });
+
+    var need_captcha = null;
+    if (need_captcha) {
+      $captchaImage.click();
+    }
+
+    var $form = $("form");
+    var validator = $form.validate({
+      rules: {
+        u: "required",
+        p: "required",
+        c: {
+          required: function () {
+            return !$captchaPart.is(":hidden");
+          }
+        }
+      }
+    });
+
+    var $submit = $("#submit");
+    $form.find("[name=p]").keypress(function (e) {
+      if (e.which == 13) {
+        $submit.click();
+      }
+    });
+    $form.find("[name=c]").keypress(function (e) {
+      if (e.which == 13) {
+        $submit.click();
+      }
+    });
+
+    $submit.click(function () {
+
+      validator.resetForm();
+      if (!$form.valid()) {
+        return;
+      }
+
+      var encryptPassword = null;
+
+      $.get({
+        url: window.CONTEXT_PATH + "/login-salt",
+        async: false,
+        success: function (salt) {
+          encryptPassword = new String(CryptoJS.SHA1(salt + '-' + $("#p").val())) + "";
+        }
+      })
+
+      var postData = {
+        username: $form.find("[name=u]").val(),
+        password: encryptPassword,
+        captcha: $form.find("[name=c]").val()
+      };
+
+      $.post({
+        url: window.CONTEXT_PATH + "/login",
+        data: JSON.stringify(postData),
+        async: false,
+        contentType: "application/json",
+        success: function (response) {
+          if (response.result) {
+            window.location.href = window.CONTEXT_PATH + "/home";
+          } else {
+            // 显示错误信息
+            $form.find(".alert.alert-danger").remove();
+            $form.prepend(
+                "<div class='alert alert-danger' role='alert'>"
+                + "<span class='fa fa-exclamation-triangle'></span>"
+                + response.message
+                + "</div>"
+            );
+            if (response.needCaptcha) {
+              $captchaImage.click();
+              $captchaPart.show();
+            }
+
+          }
+
+        }
+      });
+
+    });
+
+
+    $("#language-switcher-zh").click(function (event) {
+      Cookies.set('user_locale', 'zh');
+    });
+    $("#language-switcher-en").click(function (event) {
+      Cookies.set('user_locale', 'en');
+    });
+
+    var flag = null;
+    if (flag == 'error') {
+      bootbox.alert("当前用户在教务系统里不存在，请点击【账号问题说明】");
+    }
+
+  })
+  ;
+
+  // ]]>
+</script>
+
+</body>
+<script>
+  /*<![CDATA[*/
+  $(function () {
+    //排除多个iframe的情况(开课计划,学生课表等)
+    if (window.frameElement && window.frameElement.name != 'generate-course-plan' && window.frameElement.name != 'student-grades') {
+      $(".path-nav").removeClass('hide');
+
+      //路径导航
+      function initMenu(menus, initParentId) {
+        var $home_li = $("<li class='dropdown home dropdown-hover'></li>");
+        var $home_a = $("<a></a>").addClass("dropdown-toggle")
+            .attr("role", "button").attr("data-toggle", "dropdown")
+            .attr("aria-haspopup", true).attr("aria-expanded", false)
+            .attr("href", "#")
+            .text('首页>')
+
+        var $home_ul = $("<ul></ul>")
+            .addClass("dropdown-menu").attr('aria-labelledby', 'drop_0');
+
+        var allMenus = getMenus(menus, initParentId);
+        if (allMenus && allMenus.length != 0) {
+          $.each(allMenus, function (i, menu) {
+            if (i == 0) {
+              return;
+            }
+            $home_ul.append(menu);
+          });
+          $home_li.append($home_a.append("")).append($home_ul);
+          $home_li.find("[appendDivider=true]").each(function () {
+            $(this).closest('li').after("<li class='divider'></li>");
+          });
+          $("#path-nav-home").append($home_li);
+        }
+
+
+        $(".dropdown-hover a:first").dropdownHover({
+          changePosition: true
+        });
+
+
+      }
+
+      function getMenus(menus, parentID) {
+        var $iframeContainer = $('#e-op-area .e-op-area-iframe-container');
+        var iframeHomeName = "e-home-iframe";
+        var $iframeHome = $iframeContainer.find('iframe[name=' + iframeHomeName + ']');
+        var home_src = $iframeHome.attr("src");
+        var $home_a = $("<a></a>").addClass("dropdown-toggle")
+            .attr("role", "button").attr("data-toggle", "dropdown")
+            .attr("aria-haspopup", true).attr("aria-expanded", false)
+            .attr("href", "#");
+
+        return menus.filter(function (node) {
+          return (node.parentId === parentID);
+        }).map(function (node) {
+          var exists = menus.some(function (childNode) {
+            return childNode.parentId === node.id;
+          });
+
+          var $ul = $("<ul></ul>").addClass("dropdown-menu").attr('aria-labelledby', "drop_" + node.id);
+          var subMenu = (exists) ? $ul.append(getMenus(menus, node.id)) : "";
+          var $li = $("<li></li>");
+          var $a = $("<a></a>");
+          $a.attr("id", "drop_" + node.id);
+          $a.attr("class", "drop_submenu");
+          $a.attr("href", node.href);
+          $a.text(node.title);
+
+          //如果是home页面设置target为e-home-iframe
+          if (node.href === home_src) {
+            $a.attr("target", "e-home-iframe");
+            $home_a.text(node.title);
+          }
+          if (node.parentId) {
+            $a.attr("parentId", "drop_" + node.parentId);
+          }
+          $a.attr('appendDivider', node.appendDivider);
+          if (subMenu != "") {
+            $li.addClass("dropdown-submenu");
+          }
+          return $li.append($a).append(subMenu);
+        });
+      }
+
+      function updateMenu($anchor) {
+        var drop_parentId = $anchor.attr("parentId");
+
+        var $menu_list = $("#path-nav-home").find("ul[aria-labelledby='" + drop_parentId + "']").removeAttr("style");
+        if ($menu_list.length != 0) {
+          var $new_li = $("<li></li>").addClass("dropdown children dropdown-hover");
+          var $new_a = $("<a></a>").addClass("dropdown-toggle")
+              .attr("role", "button").attr("data-toggle", "dropdown")
+              .attr("aria-haspopup", true).attr("aria-expanded", false)
+              .text($anchor.text());
+
+          $new_li.append($new_a)
+
+          //查找上一级菜单
+          var $parent_anchor = $("#path-nav-home").find("a[id='" + drop_parentId + "']");
+
+          if ($menu_list.find("li").length > 1) {
+            $new_a.append("<span class='fa fa-angle-right'></span>");
+            $new_li.append($menu_list.clone(true));
+          }
+
+          $("#path-nav-home").find("li:first").after($new_li);
+
+          updateMenu($parent_anchor);
+        } else {
+          $("#path-nav-home").find("li a:first").text($anchor.text()).append("<span class='fa fa-angle-right'></span>");
+        }
+
+        $(".dropdown-hover a[class='dropdown-toggle']").dropdownHover({
+          changePosition: true
+        });
+
+      }
+
+      if (typeof parent.$('#saveMenus').val() != 'undefined') {
+          var menus = JSON.parse(parent.$('#saveMenus').val());
+
+          initMenu(menus, "");
+          var targetMenu = menus.filter(function (menu) {
+              return menu.href == $(window.frameElement).attr('src')
+          })[0]
+          if (targetMenu) {
+              var $anchor = $('<a href="' + targetMenu.href + '" id="drop_' + targetMenu.id + '" parentId="drop_' + targetMenu.parentId + '">' + targetMenu.title + '</a>');
+
+              updateMenu($anchor);
+          }
+      }
+
+      var originName = '首页 ';
+      $("#path-nav-home").find('>li').each(function (index, li) {
+        var currentName = $(li).find('>a').text();
+        $(li).find('>a').text(originName + ' > ');
+        originName = currentName;
+      });
+      originName = originName.indexOf('首页') != -1 ? '': originName;
+      $("#path-nav-home").append('<li><span style="color:#999999">&nbsp;' + originName + '</span></li>');
+
+
+      $('.drop_submenu').click(function (e) {
+        clickSubMenu(e, '');
+      });
+
+      function clickSubMenu(e, queryString) {
+        var $this = $(e.target);
+
+        var $body = $("body");
+        if (!$this.attr('href') || $this.attr('href') == '#') {
+          e.target.style.backgroundColor = 'transparent';
+          return false;
+        }
+
+        e.preventDefault();
+        $body.find(".dropdown-toggle-hover").removeClass("dropdown-toggle-hover");
+
+        parent.$("#e-top-menu").find('a[href="' + $this.attr('href') + '"]').click();
+
+      }
+
+    }
+
+  });
+  /*]]>*/
+</script>
+
+</body>
+
+<script>
+  /*<![CDATA[*/
+  $(function () {
+    $.each($(".selectized"), function () {
+      var _self = this;
+      if ($(_self)[0].tagName == 'SELECT') {
+        $(_self)[0].selectize.on('focus', function () {
+          if ($(_self)[0].selectize.getValue() == '') {
+            $(_self)[0].selectize.clear();
+          }
+        });
+      }
+    });
+
+    Date.prototype.format = function (format) {
+      var date = {
+        "M+": this.getMonth() + 1,
+        "d+": this.getDate(),
+        "h+": this.getHours(),
+        "m+": this.getMinutes(),
+        "s+": this.getSeconds(),
+        "q+": Math.floor((this.getMonth() + 3) / 3),
+        "S+": this.getMilliseconds()
+      };
+      if (/(y+)/i.test(format)) {
+        format = format.replace(RegExp.$1, (this.getFullYear() + '').substr(4 - RegExp.$1.length));
+      }
+      for (var k in date) {
+        if (new RegExp("(" + k + ")").test(format)) {
+          format = format.replace(RegExp.$1, RegExp.$1.length == 1
+              ? date[k] : ("00" + date[k]).substr(("" + date[k]).length));
+        }
+      }
+      return format;
+    };
+    var refreshTab = function (e) {
+      e.preventDefault();
+
+      document.location.reload();
+    };
+
+    $("#refresh").click(refreshTab);
+
+
+    /*
+    * validator插件验证后跳转第一个invalid处，兼容selectize
+    * */
+    $.validator.prototype.focusInvalid = function () {
+      if ( this.settings.focusInvalid ) {
+        try {
+          var $el = $( this.findLastActive() || this.errorList.length && this.errorList[ 0 ].element || []);
+
+          if($el.is(":visible")){
+          $el.focus()
+            // manually trigger focusin event; without it, focusin handler isn't called, findLastActive won't have anything to find
+                .trigger( "focusin" );
+          }else if($el[0].selectize){
+            $el[0].selectize.focus();
+          }
+        } catch ( e ) {
+          // ignore IE throwing errors when focusing hidden elements
+        }
+      }
+    }
+  });
+  /*]]>*/
+</script>
+
+
+
+</html>
+

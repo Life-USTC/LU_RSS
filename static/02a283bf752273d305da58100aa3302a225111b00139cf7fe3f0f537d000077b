@@ -1,0 +1,102 @@
+<!--
+ * @Description: 
+ * @Version: 0.01
+ * @Autor: MoXu
+ * @Date: 2021-08-27 10:50:23
+ * @LastEditors: MoXu
+ * @LastEditTime: 2023-01-04 13:46:16
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <title>教学质量管理平台</title>
+  <link rel="shortcut icon" href="./logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./kityformula/assets/styles/base.css">
+  <link rel="stylesheet" href="./kityformula/assets/styles/ui.css">
+  <link rel="stylesheet" href="./kityformula/assets/styles/scrollbar.css">
+  <!--引入wangEditor.css-->
+  <link rel="stylesheet" type="text/css" href="./wangEditor/css/wangEditor.min.css">
+  <style type="text/css">
+    @font-face {
+      font-family: "KF AMS FRAK";
+      src: url("./kityformulaassets/styles/fonts/KF_AMS_FRAK.woff");
+    }
+  </style>
+<link href="./styles.css?48417f311c5729e0c3fc" rel="stylesheet"></head>
+
+<body>
+  <div id="root" class="root-reset"></div>
+  <!-- 配置文件 -->
+  <script src="./config.js?ts=1682618025784" ></script>
+  <!-- 浏览器兼容 -->
+  <script src="./browser.js?v=2" ></script>
+  <!-- 依赖库文件
+  <script src="./vendor.dll.js" > </script> -->
+  <!-- 第三方组件 -->
+  <script src= "./echarts.common.min.js?v=4" > </script>
+  <script src="./echarts-wordcloud.min.js?v=1"> </script>
+  <script src='./echarts-liquidfill.min.js'></script>
+  <!-- ES6 Proxy 的兼容库 -->
+  <script src="./es6-proxy-polyfill.js"></script>
+  <!-- 富文本编辑器 -->
+  <script src="./kityformula/assets/js/jquery.min.js"></script>
+  <script src="./kityformula/assets/js/kitygraph.all.js"></script>
+  <script src="./kityformula/assets/js/kity-formula-render.all.js"></script>
+  <script src="./kityformula/assets/js/kity-formula-parser.all.min.js"></script>
+  <script src="./kityformula/assets/js/kityformula-editor.all.min.js" ></script>
+  <script src="./kityformula/assets/js/editor-control.js" > </script>
+  <script src="./wangEditor/wangEditor.min.js"></script>
+  <script src="./wangEditor/webuploader.nolog.min.js?v=1"></script>
+  <!-- 百度统计 -->
+  <script>
+    String.prototype.pxWidth = function(font) {
+    // re-use canvas object for better performance
+    var canvas = String.prototype.pxWidth.canvas || (String.prototype.pxWidth.canvas = document.createElement("canvas")),
+        context = canvas.getContext("2d"); 
+  
+    font && (context.font = font);
+    var metrics = context.measureText(this);
+  
+    return metrics.width;
+  }
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a350e568ce283423d3bb60253accf88b";
+      hm.setAttribute('async', 'async');
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <!-- 百度地图 -->
+  <script>
+    (function() {
+      // console.log("初始化百度地图脚本...");
+      const AK = "INpP5oITxU1lF6lgzLuLncyX5ITioXOR";
+      const BMap_URL = "https://api.map.baidu.com/api?v=2.0&ak="+ AK +"&s=1&callback=onBMapCallback";
+      // 如果已加载直接返回
+      if(typeof BMap !== "undefined") {
+        return true;
+      }
+      // 百度地图异步加载回调处理
+      window.onBMapCallback = function () {
+        // console.log("百度地图脚本初始化成功...");
+      };
+
+      // 插入script脚本
+      let scriptNode = document.createElement("script");
+      scriptNode.setAttribute("type", "text/javascript");
+      scriptNode.setAttribute("src", BMap_URL);
+      document.body.appendChild(scriptNode);
+      })();
+  </script>
+<script src="./runtime~main.b33a0686.js?48417f311c5729e0c3fc"></script><script src="./styles.2a303df6.async.js?48417f311c5729e0c3fc"></script><script src="./main.24800502.async.js?48417f311c5729e0c3fc"></script></body>
+
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notices on Life@USTC web</title><link>https://life-ustc.tiankaima.dev/notices/</link><description>Recent content in Notices on Life@USTC web</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 17 Jan 2023 20:31:15 +0800</lastBuildDate><atom:link href="https://life-ustc.tiankaima.dev/notices/index.xml" rel="self" type="application/rss+xml"/><item><title>关于科大各微信公众号RSS的说明</title><link>https://life-ustc.tiankaima.dev/notices/ustc_rss/</link><pubDate>Mon, 05 Jun 2023 20:16:50 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/ustc_rss/</guid><description>为方便使用，封装了科大各个微信公众号的RSS，供大家使用。
+以下是所有的常用的消息源的RSS：
+校主页：https://www.ustc.edu.cn/system/resource/code/rss/rssfeedg.jsp?type=list&amp;amp;treeid=1002&amp;amp;viewid=249541&amp;amp;mode=10&amp;amp;dbname=vsb&amp;amp;owner=1585251974&amp;amp;contentid=221571,221572,221573,221574 教务处：https://www.teach.ustc.edu.cn/category/notice/feed 中国科学技术大学（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_main.xml 研究生会（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_graduate_student_union.xml 青春科大（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_youth_league_committee.xml 本科招生（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_undergraduate_admission_office.xml 少年班学院（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_sgy.xml 校学生会（公众号）：https://rss-cdn.tiankaima.dev/xml/mp_ustc_undergraduate_student_union.xml 本站的RSS：
+应用通知：https://life-ustc.tiankaima.dev/notices/index.xml 微信公众号由WeRSS实现，我们缓存了它的CDN，并用自己的腾讯云CDN加速，以提高访问速度。请勿使用原链接，减轻WeRSS源站的压力。</description></item><item><title>关于测试用QQ群的说明</title><link>https://life-ustc.tiankaima.dev/notices/beta_testing/</link><pubDate>Tue, 16 May 2023 19:53:11 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/beta_testing/</guid><description>最近新建了一个测试用的QQ群，791050174，Bug Report和Feature Request都可以提，最新的TestFlight地址也都会发在群里。
+其实我还是喜欢Discord的，奈何Discord的用户量在国内实在是太少了，妥协。
+提醒一下可能影响体验的Bug： 考试界面（预览、小组件、详情页都算上）有概率因为网络问题而被清空。如果你的考试界面一干二净··，关掉后台重开一下，实在不行进详情页手动刷新一下。
+实际上是因为我没找到考试的API，于是就从获取到的html里解析出来的考试信息，他被清空不是异常，而是他真的认为你没有考试。
+可能也很好修…… 不过最近学业压力不小，最近更新的可能不会很频繁，注意一下上述问题不要耽误考试就好。
+以上。</description></item><item><title>关于TPNS使用的说明</title><link>https://life-ustc.tiankaima.dev/notices/tpns_info/</link><pubDate>Fri, 28 Apr 2023 16:38:15 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/tpns_info/</guid><description>最近的几次commit中，我们向当前版本添加了后台消息推送的功能，这里简单说明一下我们使用的TPNS的情况。
+为了集成消息通知（算是一个相对来说比较重要的功能了），前期我们做了很多尝试，之前自己写的后端来接受APN Token 然后定时任务推送的尝试最终以失败告终。商用的服务在这方面非常成熟（我们当然也知道有开源的推送服务后端，但出于安全&amp;amp;部署的考虑，我们还是选择了商用的服务），最终就选择了TPNS。
+TPNS的accessID算是明文，clientKey并没有以任何形式做封装，因为项目的代码主体毕竟开源，通过简单的逆向就可以得到这部分key，所以在我们看没有什么隐藏的必要…… （同时也不涉及消息发送的部分，也没有内容安全的要求）
+关于隐私 TPNS的隐私政策可以在这里找到，
+按照上述隐私政策，存储于Userdefaults(kCFPreferencesAnyUser)部分的应用信息不会被TPNS SDK以任何形式收集、处理、分析。用户数据仍保留在本地进行处理，TPNS SDK仅提供消息推送的功能。
+如对上述内容仍存有疑问，可以通过邮件联系我，tiankaima a/t 163 d/o/t com。
+关于TPNS Android的使用 由于采用了商用方案，相关的文档和SDK集成都有着较为规范的流程。同时消息来源方面也无需做二次整合，如果有需要集成消息推送的Android应用，也可通过上述邮箱联系我。
+关于用户使用数据收集、分析的投票 出于接下来开发方向的调研需要，我们将在近期发布一份投票。
+由于应用涉及到相对敏感的个人信息，是否集成数据分析类SDK、SDK的透明度等问题可能会有较大分歧。投票结果将会对接下来的开发方向产生影响，所以希望大家能够积极参与。
+投票地址位于这里。
+最后，感谢各位对我们一直以来的支持。</description></item><item><title>默认页面</title><link>https://life-ustc.tiankaima.dev/notices/default/</link><pubDate>Tue, 17 Jan 2023 19:51:33 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/default/</guid><description>这是一个默认页面。
+呃，我也不清楚这里应该写点什么。总之，当你看到这篇文章的时候，这玩意我应该是设置好了。
+占个位置，以后借着这个工具做点调查？搞点功能反馈之类的？也没太想好，总之戏台先打起来了，一个Hugo的静态gh page。
+就这样。如果有什么想法可以联系我。
+话说Hugo真的好随意……date直接用ISO8601的格式……这东西真的稳定吗？</description></item></channel></rss>

@@ -1,0 +1,60 @@
+
+<html>
+<head>
+    <title>本科生境内外交流管理系统</title>
+</head>
+<body>
+
+
+<head>
+    <title>交流管理系统后台</title>
+    <link rel='stylesheet' href='/webjars/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">管理导航栏</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">本科生境内外交流管理系统</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse" style="align-content: center">
+            
+                
+
+                
+                    <p class="navbar-text navbar-right"> 请登录，<a href="https://passport.ustc.edu.cn/login?service=http://jwjl.cmet.ustc.edu.cn/user/passportlogin.do">登录</a></p>
+                
+            
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript" src="/webjars/jquery/2.0.3/jquery.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+欢迎来到本科生境内外交流管理系统！
+
+
+<html>
+<head>
+    <title>tail</title>
+</head>
+<body>
+<br/><br/><br/>
+<footer class="footer navbar-fixed-bottom">
+    <div class="container">
+        <p>@教育技术实验室</p>
+    </div>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
