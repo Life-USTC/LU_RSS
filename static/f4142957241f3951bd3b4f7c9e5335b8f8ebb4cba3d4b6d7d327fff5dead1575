@@ -199,7 +199,7 @@ The DC Tabular Application Profiles specification is a simple model for applicat
 <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 <a href="/conferences/" class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50">
 <svg class="h-6 w-6 flex-shrink-0 text-orange-600" x-description="Heroicon name: outline/lifebuoy" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
- <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+<path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
 </svg>
 <div class="ml-4">
 <p class="text-base font-medium text-gray-900">
@@ -280,7 +280,7 @@ DCMI work on the LRMI family of metadata specifications.
 Application Profiles Working Group
 </p>
 <p class="mt-1 text-sm text-gray-500">
-Working Group for a revised framework to support application
+ Working Group for a revised framework to support application
 profiles, a revised abstract model, and core vocabulary of
 components and constraints.
 </p>
@@ -452,7 +452,7 @@ Collaborations
 <input class="border border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:border-orange-500 focus:outline-none" type="search" name="q" placeholder="Search" />
 <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-<path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+ <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
 </svg>
 </button>
 </form>
@@ -1895,7 +1895,7 @@ Property
 <tr id="http://purl.org/dc/terms/dateCopyrighted" class="divider-title-row">
 <td id="dateCopyrighted" colspan="2">
 Term Name:
-dateCopyrighted
+ dateCopyrighted
 <div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/dateCopyrighted/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
@@ -2307,6 +2307,7 @@ identifier
 </div>
 </td>
 </tr>
+
 <tr>
 <td class="field-name">URI</td>
 <td>http://purl.org/dc/terms/identifier</td>
@@ -2409,7 +2410,6 @@ isFormatOf
 <td class="field-name">Comment</td>
 <td>This property is intended to be used with non-literal values. This property is an inverse property of Has Format.</td>
 </tr>
-
 <tr>
 <td class="field-name">Type of Term</td>
 <td>
@@ -2506,7 +2506,6 @@ Property
 <ul>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2felements%2f1.1%2frelation">Relation</a> (http://purl.org/dc/elements/1.1/relation)</li>
 <li><a href="/specifications/dublin-core/dcmi-terms/#http%3a%2f%2fpurl.org%2fdc%2fterms%2frelation">Relation</a> (http://purl.org/dc/terms/relation)</li>
-
 </ul>
  </td>
 </tr>
@@ -3364,6 +3363,7 @@ Property
 </tr>
 <tr id="http://purl.org/dc/terms/subject" class="divider-title-row">
 <td id="subject" colspan="2">
+
 Term Name:
 subject
 <div class="more-details-link">
@@ -3475,9 +3475,8 @@ Property
 <td>
 <ul>
 <li>http://purl.org/dc/terms/PeriodOfTime</li>
-
 </ul>
-</td>
+ </td>
 </tr>
 <tr>
 <td class="field-name">Subproperty of</td>
@@ -4218,8 +4217,8 @@ DDC
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/DDC/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
- </div>
-</td>
+</div>
+ </td>
 </tr>
 <tr>
 <td class="field-name">URI</td>
@@ -4341,7 +4340,7 @@ Vocabulary Encoding Scheme
 <tr id="http://purl.org/dc/terms/MESH" class="divider-title-row">
 <td id="MESH" colspan="2">
 Term Name:
- MESH
+MESH
  <div class="more-details-link">
 <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/MESH/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
@@ -5733,7 +5732,7 @@ Class
 Term Name:
 InteractiveResource
 <div class="more-details-link">
-<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/InteractiveResource/"><span class="dcmi-terms-more-details-link">More details</span
+ <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dcmitype/InteractiveResource/"><span class="dcmi-terms-more-details-link">More details</span
                   ></a
                 >
 </div>
@@ -6283,7 +6282,7 @@ BIBO
 <li>
 <a href="/resources/" class="text-base text-gray-500 hover:text-gray-900">Resources</a
                 >
- </li>
+</li>
 </ul>
 </div>
 </div>
@@ -6382,6 +6381,6 @@ Tue, 06 Jun 2023 14:56:00 UTC
 </div>
 </div>
 </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d9b8b7aa9ef03e9","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d9bdb57389b081b","version":"2023.4.0","b":1,"token":"35523f0251414fed8ecb7412b93c1ea7","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
