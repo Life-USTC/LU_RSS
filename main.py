@@ -66,7 +66,7 @@ def make_index(config):
             f.write(f"* [{title}]({relative_xml_file})")
 
             # add CDN link
-            f.write(f" -> {config['hostingURL']}{relative_xml_file}\n\n")
+            f.write(f"\n  > {config['hostingURL']}{relative_xml_file}\n\n")
 
 def main():
     config = load_config()
