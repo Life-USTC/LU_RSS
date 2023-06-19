@@ -60,7 +60,7 @@ def make_index(config):
     # make index
     readme_path = os.path.join(output_dir, "README.md")
     with open(readme_path, "w") as f:
-        f.write("# RSS Feeds\n\n")
+        f.write("# RSS Feeds\n\n[![Create feeds](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml/badge.svg)](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml)\n\n")
         for xml_file in xml_files:
             with open(xml_file, "r") as f2:
                 feed = feedparser.parse(f2.read())
@@ -70,6 +70,7 @@ def make_index(config):
             f.write(f"""
 * {title}:
 > [{xml_file_name}]({relative_xml_file})
+>
 > Deployed at: {config['hostingURL']}{relative_xml_file}
 """)
 
