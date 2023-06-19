@@ -11,6 +11,12 @@ backup_feeds:
     xmlFilename: "mp_ustc_sgy.xml"
   - url: "https://cdn.werss.weapp.design/api/v1/feeds/5f94a9ea-cd88-450e-9cc6-d2a1b497f9f4.xml"
     xmlFilename: "mp_ustc_undergraduate_student_union.xml"
+  - url: "https://www.ustc.edu.cn/system/resource/code/rss/rssfeedg.jsp?type=list&treeid=1002&viewid=249541&mode=10&dbname=vsb&owner=1585251974&contentid=221571,221572,221573,221574"
+    xmlFilename: "ustc_news.xml"
+  - url: "https://www.teach.ustc.edu.cn/category/notice/feed"
+    xmlFilename: "ustc_teach.xml"
+  - url: "https://life-ustc.tiankaima.dev/notices/index.xml"
+    xmlFilename: "life_at_ustc.xml"
 
 outputDir: ./output
 hostingURL: "https://rss-cdn.tiankaima.dev"
