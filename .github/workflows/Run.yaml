@@ -1,6 +1,4 @@
-# backup GitHub Action YAML
-
-name: Backup feeds
+name: Create feeds
 
 on:
   schedule:
@@ -23,11 +21,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          repository: ${{ github.repository }}
+          ref: master
+      - name: Checkout gh-pages
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository }}
+          ref: gh-pages
+          path: output
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
         with:
           python-version: "3.10"
+          cache: "pip"
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -39,4 +45,4 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: backup
+          folder: output

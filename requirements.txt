@@ -1,2 +1,5 @@
 feedparser
 pyyaml
+bs4
+feedgen
+requests
