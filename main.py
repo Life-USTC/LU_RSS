@@ -67,10 +67,11 @@ def make_index(config):
             title = feed.feed.title
             xml_file_name = xml_file.split("/")[-1]
             relative_xml_file = xml_file.replace(output_dir, "")
-            f.write(f"* {title}: [{xml_file_name}]({relative_xml_file})")
-
-            # add CDN link
-            f.write(f"\n  > Deployed at: {config['hostingURL']}{relative_xml_file}\n\n")
+            f.write(f"""
+* {title}:
+> [{xml_file_name}]({relative_xml_file})
+> Deployed at: {config['hostingURL']}{relative_xml_file}
+""")
 
 def main():
     config = load_config()
