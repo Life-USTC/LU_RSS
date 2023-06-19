@@ -3,6 +3,7 @@ import os
 import sys
 import RSSBackup
 import RSSGenerate
+import feedparser
 
 def load_config():
     with open("config.yaml", "r") as f:
@@ -61,12 +62,15 @@ def make_index(config):
     with open(readme_path, "w") as f:
         f.write("# RSS Feeds\n\n")
         for xml_file in xml_files:
-            title = xml_file.split("/")[-1]
+            with open(xml_file, "r") as f2:
+                feed = feedparser.parse(f2.read())
+            title = feed.feed.title
+            xml_file_name = xml_file.split("/")[-1]
             relative_xml_file = xml_file.replace(output_dir, "")
-            f.write(f"* [{title}]({relative_xml_file})")
+            f.write(f"* {title}: [{xml_file_name}]({relative_xml_file})")
 
             # add CDN link
-            f.write(f"\n  > {config['hostingURL']}{relative_xml_file}\n\n")
+            f.write(f"\n  > Deployed at: {config['hostingURL']}{relative_xml_file}\n\n")
 
 def main():
     config = load_config()

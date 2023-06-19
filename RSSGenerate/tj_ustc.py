@@ -11,6 +11,8 @@ import time
 import datetime
 
 url = "http://www.tj.ustc.edu.cn/tzgg/list.htm"
+title = "体育教学中心"
+description = "体育教学中心，http://www.tj.ustc.edu.cn"
 
 headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
@@ -105,8 +107,8 @@ def tj_ustc_RSS(output_dir: str):
     items = parseHTML(html)
 
     fg = FeedGenerator()
-    fg.title("科大体育通知")
-    fg.description("科大体育通知")
+    fg.title(title)
+    fg.description(description)
     fg.link(href="http://www.tj.ustc.edu.cn/tzgg/list.htm", rel="alternate")
     fg.language("zh-CN")
     fg.lastBuildDate(datetime.datetime.utcnow().astimezone(tz=datetime.timezone.utc))
