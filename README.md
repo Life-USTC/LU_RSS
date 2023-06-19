@@ -38,7 +38,7 @@
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_graduate_student_union.xml
 
-* :
+* ustc_news.xml:
 > [ustc_news.xml](/xml/ustc_news.xml)
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/ustc_news.xml
