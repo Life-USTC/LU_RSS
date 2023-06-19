@@ -1,5 +1,7 @@
 # Life@USTC RSS
 
+[![Create feeds](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml/badge.svg)](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml)
+
 ## Introduction
 
 Backup a given RSS feed source, download the feed's XML file and all url links' content to a local folder,

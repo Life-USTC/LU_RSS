@@ -117,6 +117,8 @@ def backupRSSFeed(feedURL: str, output_dir: str, hosting_URL: str, xml_filename:
     print("Downloading xml file...")
     original_xml = repeat_download(feedURL).decode("utf-8")
     feedName = feedparser.parse(original_xml).feed.title
+    if feedName == "":
+        feedName = hashlib.sha256(feedURL.encode("utf-8")).hexdigest()
     feedXMLFilename = feedName + ".xml" if xml_filename is None else xml_filename
     feedPath = os.path.join(xmlDir, feedXMLFilename)
 
