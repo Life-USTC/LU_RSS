@@ -1,12 +1,30 @@
-# RSS-backup
+# Life@USTC RSS
 
-repo used to backup a given RSS feed source,
-would download the feed and all url links to a local folder, then change the links in the feed to point to the local files.
+## Introduction
 
-further more this is suggested to work with GitHub Pages and GitHub Actions to automatically update the feed and the files.
+Backup a given RSS feed source, download the feed's XML file and all url links' content to a local folder,
+then change the links in the feed to point to the local files. (or URLs)
 
-branch `master` contains the code to run everything, with GitHub Action configs and python code.
+*This is suggested to work with GitHub Pages and GitHub Actions to automatically update the feed and the files.*
 
-branch `gh-pages` contains the generated files, and the feed.xml file, which is 'cotinuously' updated by the GitHub Action.
+## Notice
 
-Notice that this might violate GitHub's EULA, so use at your own risk.
+* With little modifications you could backup anything you want with this method, just currently we're backing up RSS urls from WeRSS (which isn't supposed to be shared).
+* **This might violate GitHub's EULA or ToS, so use at your own risk.**
+* Other modifications might be added to satisify the app's need
+  * The simple backup version would be stored in `archived` branch in the future.
+* This repo is open-sourced, but not licensed.
+  * You may use this for learning purposes only.
+  * We open source this for public review purposes (so that we don't easily get hacked and publish harmful messages to users)
+
+## Branches
+
+* `master` contains the code, and runs by GitHub Action
+
+* `gh-pages` contains the generated files(Backups and XMLs), and is hosted on GitHub Pages.
+
+## Deploy
+
+To customize your own one, fork the repo and edit `config.yaml`, configure GitHub Pages' domain name.
+
+**We recommend you configure a CDN like us to lower GitHub's load.**
