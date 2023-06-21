@@ -113,5 +113,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Add sent notifications from ${{ github.sha }}"
-          git push -f
+          git commit -m "Add sent notifications from ${{ github.sha }}" --allow-empty
+          (git push -f) || true
