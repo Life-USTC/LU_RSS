@@ -1,6 +1,6 @@
 # Life@USTC RSS
 
-[![Create feeds](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml/badge.svg)](https://github.com/Life-USTC/LU_RSS/actions/workflows/Run.yaml)
+[![Create feeds](https://github.com/Life-USTC/LU_RSS/actions/workflows/run.yaml/badge.svg)](https://github.com/Life-USTC/LU_RSS/actions/workflows/run.yaml)
 
 ## Introduction
 
