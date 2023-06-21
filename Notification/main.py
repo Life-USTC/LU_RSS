@@ -47,6 +47,7 @@ def post_time(post: json) -> str:
 
 
 def main():
+    all_response = ""
     for xml_file in os.listdir("cache/xml"):
         feed = feedparser.parse(f"cache/xml/{xml_file}")
 
@@ -62,11 +63,23 @@ def main():
                                           time=post_time(post))
                     time.sleep(1)
 
+                    all_response += response
                     post_hash = create_hash(post.title + post.link)
                     with open(f"cache/{post_hash}", "w") as f:
                         f.write(response)
                 except Exception as e:
                     print(e)
+
+    # load README.md -> add all_response (add line 2) -> write back
+    with open("README.md", "r") as f:
+        readme = f.read()
+
+    readme = readme.split("\n")
+    readme.insert(1, f"```\n{all_response}\n```")
+    readme = "\n".join(readme)
+
+    with open("README.md", "w") as f:
+        f.write(readme)
 
 
 if __name__ == "__main__":
