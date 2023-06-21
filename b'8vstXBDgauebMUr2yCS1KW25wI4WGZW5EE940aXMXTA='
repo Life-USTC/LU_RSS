@@ -1,0 +1,20 @@
+{
+  "seq": 0,
+  "push_id": "621263680",
+  "ret_code": 10010018,
+  "environment": "dev",
+  "err_msg": "the push title and content was repeat for the pushId:621263680",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
+{
+  "seq": 0,
+  "push_id": "621272394",
+  "ret_code": 10010018,
+  "environment": "product",
+  "err_msg": "the push title and content was repeat for the pushId:621272394",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
