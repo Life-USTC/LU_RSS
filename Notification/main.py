@@ -24,7 +24,7 @@ from dateutil import parser
 
 
 def create_hash(string: str) -> str:
-    return base64.urlsafe_b64decode(hashlib.sha256(string.encode('utf-8')).digest())
+    return base64.urlsafe_b64encode(hashlib.sha256(string.encode('utf-8')).digest()).decode('utf-8').rstrip("=")
 
 
 def check_post(post: json) -> bool:
@@ -69,6 +69,11 @@ def main():
                         f.write(response)
                 except Exception as e:
                     print(e)
+
+    if all_response == "":
+        exit(0)
+    else:
+        all_response = f"Time: {datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S')}\n{all_response}"
 
     # load README.md -> add all_response (add line 2) -> write back
     with open("README.md", "r") as f:
