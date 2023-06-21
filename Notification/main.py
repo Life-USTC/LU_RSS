@@ -24,7 +24,7 @@ from dateutil import parser
 
 
 def create_hash(string: str) -> str:
-    return base64.b64encode(hashlib.sha256(string.encode('utf-8')).digest())
+    return base64.urlsafe_b64decode(hashlib.sha256(string.encode('utf-8')).digest())
 
 
 def check_post(post: json) -> bool:
