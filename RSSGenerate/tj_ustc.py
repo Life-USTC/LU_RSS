@@ -77,7 +77,8 @@ def parseHTML(html: str):
     for item in items:
         date = item.find("time").text
         # this is UTC+8 time, mark with timezone
-        date_parsed = datetime.datetime.strptime(date, "%Y-%m-%d").astimezone(tz=datetime.timezone(datetime.timedelta(hours=8)))
+        date_parsed = datetime.datetime.strptime(
+            date, "%Y-%m-%d").astimezone(tz=datetime.timezone(datetime.timedelta(hours=8)))
         result.append({
             "title": item.find("a").text,
             # 'http://www.tj.ustc.edu.cn' + '/2023/0614/c30734a605933/page.htm
@@ -111,7 +112,8 @@ def tj_ustc_RSS(output_dir: str):
     fg.description(description)
     fg.link(href="http://www.tj.ustc.edu.cn/tzgg/list.htm", rel="alternate")
     fg.language("zh-CN")
-    fg.lastBuildDate(datetime.datetime.utcnow().astimezone(tz=datetime.timezone.utc))
+    fg.lastBuildDate(datetime.datetime.utcnow(
+    ).astimezone(tz=datetime.timezone.utc))
     fg.ttl(5)
 
     for item in items:

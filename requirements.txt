@@ -3,3 +3,5 @@ pyyaml
 bs4
 feedgen
 requests
+pytz
+html2text

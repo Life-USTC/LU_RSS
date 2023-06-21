@@ -18,7 +18,8 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57"
 }
 
-def repeat_download(url, retry_count= 0, max_retry=3):
+
+def repeat_download(url, retry_count=0, max_retry=3):
     """
     Repeat downloading the xml until it succeeds
 
@@ -30,7 +31,7 @@ def repeat_download(url, retry_count= 0, max_retry=3):
     :raises Exception: If the retry count is greater than the maximum retry count
     """
     if retry_count > max_retry:
-        raise Exception("Cannot download xml file")
+        raise Exception(f"Failed to download {url} after {max_retry} retries")
     try:
         request = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(request) as f:
@@ -40,6 +41,7 @@ def repeat_download(url, retry_count= 0, max_retry=3):
         print("Error: " + str(e))
         print("Retrying...")
         return repeat_download(url, retry_count + 1, max_retry)
+
 
 def download_and_convert_url(original_xml: str, url: str, hosting_url: Optional[str], static_dir: str):
     """
@@ -115,7 +117,7 @@ def backupRSSFeed(feedURL: str, output_dir: str, hosting_URL: str, xml_filename:
             os.makedirs(dir)
 
     print("Downloading xml file...")
-    original_xml = repeat_download(feedURL).decode("utf-8")
+    original_xml = repeat_download(feedURL, max_retry=10).decode("utf-8")
     feedName = feedparser.parse(original_xml).feed.title
     if feedName == "":
         feedName = hashlib.sha256(feedURL.encode("utf-8")).hexdigest()
@@ -124,7 +126,8 @@ def backupRSSFeed(feedURL: str, output_dir: str, hosting_URL: str, xml_filename:
 
     print("Downloaded xml file, replacing urls...")
     for url in url_matcher.findall(original_xml):
-        original_xml = download_and_convert_url(original_xml, url, hosting_URL, staticDir)
+        original_xml = download_and_convert_url(
+            original_xml, url, hosting_URL, staticDir)
 
     print("Replacing urls done, saving xml file...")
     if os.path.exists(feedPath):

@@ -2,14 +2,20 @@ name: Create feeds
 
 on:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
+    - cron: "*/10 * * * *"
   push:
     branches:
       - master
   pull_request:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Debug mode"
+        type: boolean
+        default: false
+        required: true
 
 permissions:
   contents: write
@@ -29,6 +35,12 @@ jobs:
           repository: ${{ github.repository }}
           ref: gh-pages
           path: output
+      - name: Checkout sent-cache
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository }}
+          ref: sent-cache
+          path: Notification/cache
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
         with:
@@ -37,12 +49,69 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      - name: Run
+      - name: Backup RSS
         env:
           TZ: "Asia/Shanghai"
         run: |
           python main.py
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: output
+  notification:
+    runs-on: ubuntu-latest
+    needs: backup
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          set-safe-directory: ''
+          repository: ${{ github.repository }}
+          ref: master
+      - name: Checkout gh-pages
+        uses: actions/checkout@v3
+        with:
+          set-safe-directory: ''
+          repository: ${{ github.repository }}
+          ref: gh-pages
+          path: output
+      - name: Checkout sent-cache
+        uses: actions/checkout@v3
+        with:
+          set-safe-directory: ''
+          repository: ${{ github.repository }}
+          ref: sent-cache
+          path: Notification/cache
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+          cache: "pip"
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Prepare Notification
+        working-directory: output
+        run: |
+          ls -al
+          mkdir -p ../Notification/cache
+          cp -r xml ../Notification/cache/
+          git config --global --add safe.directory '*'
+      - name: Push Notification
+        env:
+          TPNS_SECRET_KEY: ${{ secrets.TPNS_SECRET_KEY }}
+          TPNS_USER_NAME: ${{ secrets.TPNS_USER_NAME }}
+          DEBUG: ${{ github.event.inputs.debug }}
+          TZ: "Asia/Shanghai"
+        run: |
+          cd Notification
+          python main.py
+      - name: Push
+        working-directory: Notification/cache
+        run: |
+          rm -rf ./xml
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Add sent notifications from ${{ github.sha }}"
+          git push -f
