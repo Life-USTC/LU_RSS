@@ -32,6 +32,7 @@ jobs:
       - name: Checkout gh-pages
         uses: actions/checkout@v3
         with:
+          set-safe-directory: ''
           repository: ${{ github.repository }}
           ref: gh-pages
           path: output
@@ -54,10 +55,14 @@ jobs:
           TZ: "Asia/Shanghai"
         run: |
           python main.py
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: output
+      - name: Publish to gh-pages
+        run: |
+          cd output
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update feeds from ${{ github.sha }}" --allow-empty
+          (git push -f) || true
   notification:
     runs-on: ubuntu-latest
     needs: backup

@@ -27,18 +27,23 @@ def backup_feeds(config):
 
     # Backup all feeds
     for feed in config["backup_feeds"]:
-        if isinstance(feed, str):
-            RSSBackup.backupRSSFeed(feedURL=feed,
-                                    output_dir=output_dir,
-                                    hosting_URL=hosting_URL)
-        elif isinstance(feed, dict):
-            RSSBackup.backupRSSFeed(feedURL=feed["url"],
-                                    output_dir=output_dir,
-                                    hosting_URL=hosting_URL,
-                                    xml_filename=feed["xmlFilename"])
-        else:
-            print("Invalid feed: " + str(feed))
-            sys.exit(1)
+        try:
+            if isinstance(feed, str):
+                RSSBackup.backupRSSFeed(feedURL=feed,
+                                        output_dir=output_dir,
+                                        hosting_URL=hosting_URL)
+            elif isinstance(feed, dict):
+                RSSBackup.backupRSSFeed(feedURL=feed["url"],
+                                        output_dir=output_dir,
+                                        hosting_URL=hosting_URL,
+                                        xml_filename=feed["xmlFilename"])
+            else:
+                print("Invalid feed: " + str(feed))
+                sys.exit(1)
+        except Exception as e:
+            print("Error: " + str(e))
+            print("Skipping...")
+            continue
 
 
 def generate_feeds(config):
