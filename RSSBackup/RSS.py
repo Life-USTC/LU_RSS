@@ -19,28 +19,26 @@ headers = {
 }
 
 
-def repeat_download(url, retry_count=0, max_retry=3):
+def repeat_download(url, max_retry=3):
     """
     Repeat downloading the xml until it succeeds
 
     :param str url: The url to download
-    :param int retry_count: The current retry count
     :param int max_retry: The maximum retry count
 
     :return: The downloaded data
-    :raises Exception: If the retry count is greater than the maximum retry count
+    :raises Exception: If failed to download after max_retry retries
     """
-    if retry_count > max_retry:
-        raise Exception(f"Failed to download {url} after {max_retry} retries")
-    try:
-        request = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(request) as f:
-            data = f.read()
-        return data
-    except Exception as e:
-        print("Error: " + str(e))
-        print("Retrying...")
-        return repeat_download(url, retry_count + 1, max_retry)
+    for retry_count in range(max_retry):
+        try:
+            request = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(request) as f:
+                data = f.read()
+            return data
+        except Exception as e:
+            print("Error: " + str(e))
+            print("Retrying...")
+    raise Exception("Failed to download " + url + " after " + str(max_retry) + " retries")
 
 
 def download_and_convert_url(original_xml: str, url: str, hosting_url: Optional[str], static_dir: str):

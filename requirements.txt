@@ -5,3 +5,4 @@ feedgen
 requests
 pytz
 html2text
+urllib3

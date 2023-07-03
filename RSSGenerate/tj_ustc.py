@@ -4,6 +4,8 @@ Make RSS feed from: http://www.tj.ustc.edu.cn/tzgg/list.htm
 Save rss to outputDir/xml/tj_ustc.xml
 """
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import os
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
@@ -101,7 +103,10 @@ def tj_ustc_RSS(output_dir: str):
         os.makedirs(output_dir)
     if not os.path.exists(output_dir + "/xml"):
         os.makedirs(output_dir + "/xml")
-    r = requests.get(url, headers=headers)
+
+    s = requests.Session()
+    s.mount("http://", HTTPAdapter(max_retries=3))
+    r = s.get(url, headers=headers)
     r.encoding = "utf-8"
     html = r.text
 
