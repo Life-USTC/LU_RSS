@@ -1,0 +1,112 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>中国科学技术大学助教管理系统</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=GBK">
+  <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+</head>
+<body>
+<form class="mainform" method="post" name="form1" action="" target="">
+
+<div class="wrapper">
+  <div class="title">
+    <img src="images/indexlogo.gif" alt="中国科学技术大学助教管理系统">
+  </div>
+
+
+
+  <div class="main">
+    <div class="login">
+     <div class="but"> <a href="https://passport.ustc.edu.cn/login?service=https%3A%2F%2Fta.cmet.ustc.edu.cn%2FcasLogin.do">点击进入系统</a></div>
+      <p>本系统使用中国科学技术大学统一身份认证登录</p>
+      <div class="red"><a href="ta_login.jsp">外聘教师登录</a></div>
+    </div>
+  </div>
+  
+
+  <div class="footer">
+    <div class="notices">
+      <ul>
+
+       
+        
+
+      </ul>
+    </div>
+    
+
+
+    <div class="extra">
+      <div class="links"><a href="document/zjgzglbf.pdf" download>助教工作管理办法（2021）</a>&nbsp;&nbsp;<a href="document/zjsc.pdf" download>助教手册（第三版）</a>&nbsp;&nbsp;<a href="document/zjhbsc.pdf" download>助教周汇报和月汇报填写指南</a>&nbsp;&nbsp;<a  class="lb" href="mailto:ta_admin@ustc.edu.cn">联系方式</a><a  class="lb" href="#">常见问题</a></div>
+      <div class="extra-content">
+        <h1>联系方式</h1>
+        <div class="content">
+          <p><b>助教培训及优秀助教事务:</b></p>
+          <p>边老师 &nbsp;&nbsp;&nbsp;&nbsp;电话：63607673&nbsp;&nbsp;&nbsp;&nbsp;邮箱：<a href="mailto:bcy123@ustc.edu.cn">bcy123@ustc.edu.cn</a></p>
+          <p><b>助教申请、月汇报及津贴发放等:</b></p>
+          <p>李老师 &nbsp;&nbsp;&nbsp;&nbsp;电话：63600396&nbsp;&nbsp;&nbsp;&nbsp;邮箱：<a href="mailto:ta_admin@ustc.edu.cn">ta_admin@ustc.edu.cn</a></p>
+        </div>
+      </div>
+      <div class="extra-content">
+        <h1>常见问题</h1>
+        <div class="content">
+          <dl>
+          
+            <dt>一、助教津贴什么时候可以进卡？</dt>
+            <dd>
+              <p>助教津贴发放流程：</p>
+              <p><b>1.汇报评价。</b>每个月月初助教3天汇报上个月工作，在此基础上老师评价时间再延迟两天，无论是汇报还是老师评价，中间遇双休或国家法定节假日顺延。如2020年12月份，12月1-3日助教汇报工作，老师评价是12月7日截止（中间5号、6号是双休，顺延）</p>
+              <p><b>2.津贴报表制定。</b>管理员处理津贴数据1-2天，制作津贴报表。</p>
+              <p><b>3.分管校领导签字。</b>根据学校财务制度，津贴数额较大，必须由分管校领导签字。</p>
+              <p><b>4.财务处审核。</b>津贴报表提交财务处审核</p>
+              <p><b>5.银行审核并发放。</b>财务审核完毕后再提交银行审核，进行发放。</p>
+              <p></p>
+              <p>因此，正常情况下助教津贴每个月15号之前进卡，特殊情况如每年10月份遇国庆节顺延时间较长或者分管校领导出差或银行审核问题处理等原因每个月20号之前进卡。</p>
+            </dd>
+            
+            <dt>二、任课教师评价结果与助教津贴的发放比例？</dt>
+            <dd>
+              <p>1.优秀、良好 100%；一般  80%；  较差  70%；</p>
+              <p>2.不合格</p>
+              <p><b>（1）第一次不合格 ，</b>发放该次津贴的60%，由任课教师决定是否续聘。若续聘，助教须向任课教师提交改进计划。</p>
+              <p><b>（2）第二次不合格，</b>取消该次津贴发放，取消助教资格，进入助教申请黑名单。助教补聘由相关院系负责。</p>            
+            </dd>
+          
+          
+            <dt>三、无法登录？</dt>
+            <dd>
+              <p>本系统使用中国科学技术大学统一身份认证登录，点击“点击进入本系统”按钮后会自动跳转至统一身份认证平台完成登录过程。</p>
+              <p>如果您尚未激活我校统一认证或忘记密码，请首先按照统一认证平台的提示操作。</p>
+              <p>如果您点击“点击进入本系统”后浏览器提示“此网站的安全证书有问题”或类似的错误提示，您可在错误页面寻找“继续访问”或类似含义的链接，点击即可继续登录流程。</p>
+            </dd>
+
+            <dt>四、页面显示出现问题？</dt>
+            <dd>
+              <p>请使用标准兼容浏览器访问，如 Internet Explorer 8+，Google Chrome，Mozilla Firefox 等，如使用 360 等第三方浏览器，请开启急速模式。</p>
+            </dd>
+            
+            
+
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/index.js?20170911"></script>
+</form>
+</body>
+</html>
