@@ -54,7 +54,7 @@
         "backupURL": "https://rss-cdn.tiankaima.dev/backup/xml/ustc_teach.xml"
     },
     {
-        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5927\u672c\u79d1\u62db\u751f\u300d",
+        "name": "\u516c\u4f17\u53f7\u300c\u7eaf\u771f\u5c11\u5e74\u7684\u68a6\u5e7b\u4e66\u5c4b\u300d",
         "url": "deprecated",
         "xml": "./output/xml/mp_ustc_undergraduate_admission_office.xml",
         "backupURL": "https://rss-cdn.tiankaima.dev/backup/xml/mp_ustc_undergraduate_admission_office.xml"

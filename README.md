@@ -48,7 +48,7 @@
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/ustc_teach.xml
 
-* 公众号「中国科大本科招生」:
+* 公众号「纯真少年的梦幻书屋」:
 > [mp_ustc_undergraduate_admission_office.xml](/xml/mp_ustc_undergraduate_admission_office.xml)
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_undergraduate_admission_office.xml
