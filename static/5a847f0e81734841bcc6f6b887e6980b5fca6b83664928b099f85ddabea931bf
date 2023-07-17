@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>学生学业指导中心
+</title>
+<link rel="StyleSheet" type="text/css" href="/xyzd//Public/css/bootstrap.css" /><link href="/xyzd/Tpl/Default//css/layout.css" rel="stylesheet" type="text/css" />
+<link href="/xyzd/Tpl/Default//css/css.css" rel="stylesheet" type="text/css" />
+<!--script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+<!--/script-->
+
+
+<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+
+
+<body>
+
+<!--头部-->
+<div id="header">
+<div id="logo"><img src="/xyzd/Tpl/Default//images/logo.gif" width="524" height="81" /></div>
+
+<div id="fr" style="padding-top: 50px;">
+
+
+<!--div class="search"> 
+<form id="form" name="form" method="post" action="">
+<div class="input-append">
+  <img src="/xyzd/Tpl/Default//images/fd.gif" width="22" height="23"/> 
+  <input type="text" class="input-medium" size="15" placeholder="站内搜索" />
+  <input type="submit" name="Submit" value="搜 索"class="btn" />
+</div>
+</form>
+</div-->
+
+
+
+<div class="login">
+<a href="/xyzd/index.php/user/caslogin">统一认证登录</a> | <a href="/xyzd/index.php/user/login">登录</a> | <a href="/xyzd/index.php/user/register">注册</a>
+</div>
+
+
+</div>
+
+
+<div id="nav">
+<ul>
+<!--
+<li><a href="/xyzd/Tpl/Default//index.html"><img src="/xyzd/Tpl/Default//images/menu01.gif" border="0" alt="网站首页" title="网站首页" /></a></li>
+
+
+<li><a href="#"><img src="/xyzd/Tpl/Default//images/menu_02.gif" border="0" alt="项目介绍" title="项目介绍" onmouseover="this.src='/xyzd/Tpl/Default//images/menu02.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_02.gif'"/></a></li>
+
+
+<li><a href="zxbm.html"><img src="/xyzd/Tpl/Default//images/menu_03.gif" border="0" alt="选择培养" title="选择培养"  onmouseover="this.src='/xyzd/Tpl/Default//images/menu03.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_03.gif'"/></a></li>
+
+
+<li><a href="new_list.html"><img src="/xyzd/Tpl/Default//images/menu_04.gif" border="0"  alt="夏季学期" title="夏季学期" onmouseover="this.src='/xyzd/Tpl/Default//images/menu04.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_04.gif'"/></a></li>
+
+
+<li><a href="#"><img src="/xyzd/Tpl/Default//images/menu_05.gif" border="0"  alt="科教结合" title="科教结合" onmouseover="this.src='/xyzd/Tpl/Default//images/menu05.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_05.gif'"/></a></li>
+
+
+<li><a href="#"><img src="/xyzd/Tpl/Default//images/menu_06.gif" border="0" alt="合作交流" title="合作交流"  onmouseover="this.src='/xyzd/Tpl/Default//images/menu06.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_06.gif'"/></a></li>
+
+
+<li><a href="szdw_list.html"><img src="/xyzd/Tpl/Default//images/menu_07.gif" alt="师资队伍" title="师资队伍"  border="0" onmouseover="this.src='/xyzd/Tpl/Default//images/menu07.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_07.gif'"/></a></li>
+
+
+<li><a href="#"><img src="/xyzd/Tpl/Default//images/menu_08.gif" border="0" alt="他山之石" title="他山之石"  onmouseover="this.src='/xyzd/Tpl/Default//images/menu08.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_08.gif'"/></a></li>
+
+
+<li style="background:none;"><a href="#"><img src="/xyzd/Tpl/Default//images/menu_09.gif" border="0"  alt="管理规定" title="管理规定"  onmouseover="this.src='/xyzd/Tpl/Default//images/menu09.gif'"onmouseout="this.src='/xyzd/Tpl/Default//images/menu_09.gif'"/></a></li>
+-->
+<li><a href="/xyzd/index.php">网站首页</a></li>
+<li><a href="/xyzd/index.php/poster/?type=notice">通知公告</a></li>
+<li><a href="/xyzd/index.php/page/index?id=1">中心介绍</a></li>
+<li><a href="/xyzd/index.php/page/teacher">专家介绍</a></li>
+<li><a href="/xyzd/index.php/page/reserve">网上预约</a></li>
+<li><a href="/xyzd/index.php/poster/index?type=rule">规章制度</a></li>
+<li><a href="/xyzd/index.php/poster/index?type=guide">服务指南</a></li>
+<li style="background:none;"><a href="/xyzd/index.php/poster/index?type=FAQ">常见问答</a></li>
+
+
+</ul>
+</div>
+<div style="clear:both"></div>
+
+
+<div id="banner">
+  <!--object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="992" height="237">
+    <param name="movie" value="images/banner.swf" />
+    <param name="quality" value="high" />
+    <embed src="/xyzd/Tpl/Default//images/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="992" height="237"></embed>
+  </object-->
+  <img src="/xyzd/Tpl/Default//images/banner.jpg" />
+</div>
+
+
+
+</div>
+<div style="clear:both"></div>
+<!--//头部-->
+
+
+<!--主体部分-->
+<div id="wrap">
+
+<script type="text/javascript" src="/xyzd//Public/js/jquery.js"></script>
+<!--script type="text/javascript" src="/xyzd//Public/js/swfobject.js" ></script-->
+<style>
+.cell{margin-top:10px;}
+</style>
+
+<div class="row-fluid">
+	<div class="span3">
+		<div class="cell">
+						<a href="/xyzd/index.php/index/jxrl" title="教学日历 2023-07" target="_blank" style="border: 1px solid #ECECEC;height:392px;width:222px;display:block;" >
+			
+			<img src="/xyzd//Upload/rili/rili-2023-07.jpg" />
+			</a>
+		</div>
+		<div class="cell"><!--联系我们-->
+<div class="left_contact">
+<div class="title4"><span class="text1">联系我们</span><!--span class="more3"><a href="#">更多>></a></span--></div>
+<ul>
+<li>
+<p></p><p><a href="mailto:snowyang@ustc.edu.cn"></a></p>联系电话：0551-63607220&nbsp;&nbsp;<p>Email：<a href="mailto:dengjsh@ustc.edu.cn">dengjsh@ustc.edu.cn</a></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><img alt="" onerror="//Here you can enter what you like" src="http://202.38.65.52/0.gif" width="1" height="1" /></li>
+<div style="clear:both"></div>
+</ul>
+</div><!--//联系我们--></div>
+	</div>
+	<div class="span6">
+		
+		<div class="news_list cell bordered" style="height:300px">
+			<div class="lmt"><span>通知公告</span>
+				<div class="more"><a href="/xyzd/index.php/poster/?type=notice">更多>></a></div>
+			</div>
+			<ul>
+			<li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=647" title="朱彤院士为我校2022级本科生作“科学与社会”研讨课主题报告"> 
+			
+			朱彤院士为我校2022级本科生作“科学与社会”研讨课主题报告			</a> </span>
+				<span class="list_date">2023-05-19</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=646" title="关于2022级本科生“科学与社会”研讨课之朱彤院士报告会的通知"> 
+			
+			关于2022级本科生“科学与社会”研讨课之朱彤院士报告会的通知			</a> </span>
+				<span class="list_date">2023-05-16</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=645" title="王赤院士为我校2022级本科生作“科学与社会”研讨课主题报告"> 
+			
+			王赤院士为我校2022级本科生作“科学与社会”研讨课主题报告			</a> </span>
+				<span class="list_date">2023-05-09</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=644" title="关于2022级本科生“科学与社会”研讨课之王赤院士报告会的通知"> 
+			
+			关于2022级本科生“科学与社会”研讨课之王赤院士报告会的通知			</a> </span>
+				<span class="list_date">2023-04-25</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=643" title="学校召开2022级本科生“科学与社会”研讨课导师研讨会"> 
+			
+			学校召开2022级本科生“科学与社会”研讨课导师研讨会			</a> </span>
+				<span class="list_date">2022-09-13</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=642" title="校长包信和院士为我校2022级本科新生上开学第一课"> 
+			
+			校长包信和院士为我校2022级本科新生上开学第一课			</a> </span>
+				<span class="list_date">2022-09-09</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=640" title="我校召开2022年第一次校学业指导工作会议"> 
+			
+			我校召开2022年第一次校学业指导工作会议			</a> </span>
+				<span class="list_date">2022-04-07</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=639" title="歼-20总设计师杨伟院士为我校2021级本科生作“科学与社会”研讨课主题报告"> 
+			
+			歼-20总设计师杨伟院士为我校2021级本科生作“科学与社会”研讨课主题报告			</a> </span>
+				<span class="list_date">2022-01-06</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=638" title="关于2021级本科生“科学与社会”研讨课之杨伟院士报告会的通知"> 
+			
+			关于2021级本科生“科学与社会”研讨课之杨伟院士报告会的通知			</a> </span>
+				<span class="list_date">2021-12-29</span>
+			</li>			</ul>
+		</div>
+		
+		
+		<div class="news_list cell bordered" style="height:300px">
+			<div class="lmt"><span>规章制度</span>
+				<div class="more"><a href="/xyzd/index.php/poster/?type=rule">更多>></a></div>
+			</div>
+			<ul>
+			<li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=651" title="规章制度"> 
+				规章制度
+			</a> </span>
+				<span class="list_date">2023-06-06</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=641" title="本科学习指南（2022）"> 
+				本科学习指南（2022）
+			</a> </span>
+				<span class="list_date">2022-09-06</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=628" title="本科学习指南（2021）"> 
+				本科学习指南（2021）
+			</a> </span>
+				<span class="list_date">2021-09-06</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=612" title="本科学习指南（2020）"> 
+				本科学习指南（2020）
+			</a> </span>
+				<span class="list_date">2020-08-25</span>
+			</li><li><span class="list_text"><a href="/xyzd/index.php/poster/index?do=detail&id=604" title="本科学习指南（2019）"> 
+				本科学习指南（2019）
+			</a> </span>
+				<span class="list_date">2019-09-25</span>
+			</li>			</ul>
+		</div>
+		<!--div class="news_list cell bordered" style="height:310px;overflow:hidden;" id="article">
+			<div class="lmt"><span></span>
+				<div class="more"><a href="/xyzd/index.php/page/index?id=">更多>></a></div>
+			</div>
+					</div-->
+		
+	</div>
+	<div class="span3">
+		<div class="news_list cell bordered">
+			<div class="lmt"><span>预约平台</span></div>
+			
+			<div style="padding:10px;height:160px;">
+			如果学业上需要指导，可以进行网上预约，我们将为你安排个性化学习指导！
+			<div style="margin-top:40px;"><a href="/xyzd/index.php/page/reserve" class="btn btn-danger btn-block btn-large">我要预约</a></div>
+			</div>
+		</div>
+		
+		<!---宣传图片--->
+		<div class="cell bordered">
+		<a href="/xyzd/index.php/index/picture" title="">
+		<script type="text/javascript">
+			var focus_width = 230;
+			var focus_height = 393;
+			var text_height = 0;
+			var swf_height = focus_height + text_height;
+			var pics = 'http://202.38.65.52/xyzd/Upload/indexpic/卡通0.jpg|http://202.38.65.52/xyzd/Upload/indexpic/卡通1.jpg|http://202.38.65.52/xyzd/Upload/indexpic/卡通2.jpg|http://202.38.65.52/xyzd/Upload/indexpic/卡通4.jpg';
+			var texts = '照片|照片|照片|照片';
+			var links='/xyzd/index.php/index/picture|/xyzd/index.php/index/picture|/xyzd/index.php/index/picture|/xyzd/index.php/index/picture';
+			document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"width="'+ focus_width +'" height="'+ swf_height+'">');
+			document.write('<param name="allowScriptAccess"value="sameDomain"><param name="movie" value="/xyzd//Public/js/pixviewer.swf"><param name="quality" value="high"><param name="bgcolor" value="#FFF">');
+			document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+			document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+			document.write('<embed src="/xyzd//Public/js/pixviewer.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+(2+focus_width)+'&borderheight='+(2+focus_height)+'&textheight='+text_height+'" menu="false" bgcolor="#DADADA" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>');
+			document.write('</object>');
+
+		</script>
+		</a>
+		</div>
+		
+	</div>
+</div>
+
+<!--
+<div class="row-fluid box" style="height:200px;">
+	<div class="span3 ">
+		
+	</div>
+	<div class="span6 bordered">
+		
+		
+	</div>
+	<div class="span3 bordered" style="position:relative;">
+		
+	</div>
+</div>
+
+<div class="row-fluid box" style="height:200px;">
+	<div class="span3"></div>
+	<div class="span6  bordered">
+		<div class="news_list">
+			<div class="lmt"><span>联系我们</span>
+				<!--div class="more"><a href="/xyzd/index.php/notice/">更多>></a></div-->
+<!--			</div>
+			<div style="padding:10px;line-height:24px;"></div>
+		</div>
+		
+		
+	</div>
+	<div class="span3 bordered">
+	
+		
+	</div>
+</div>
+
+-->
+<!-- <div class="row-fluid box">
+	<div class="span12 flink">
+		<ul>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+			<li><a href=""><img src="/xyzd/Tpl/Default//images/link.gif" alt="links"></a></li>
+		</ul>
+	</div>
+	
+</div> -->
+
+
+<div class="clearfix"></div>
+
+<script type="text/javascript" src="/xyzd//Public/xheditor/jquery/jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#article ul>li>a').each(function(){
+		var wp=$('<span>').addClass('list_text');
+		$(this).wrap(wp);
+	});
+});
+</script>
+
+
+</div>
+<div style="clear:both"></div>
+<!--//主体部分-->
+
+
+<!--底部-->
+<div id="footer">
+
+    
+Copyright&copy;2012-2022 中国科学技术大学 All Rights Reserved </div>
+<!--//底部-->
+</body>
+</html>
