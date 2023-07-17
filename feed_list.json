@@ -42,7 +42,7 @@
         "backupURL": "https://rss-cdn.tiankaima.dev/backup/xml/mp_ustc_graduate_student_union.xml"
     },
     {
-        "name": "\u516c\u4f17\u53f7\u300c\u4e2d\u56fd\u79d1\u5b66\u6280\u672f\u5927\u5b66\u300d",
+        "name": "\u516c\u4f17\u53f7\u300c\u65c5\u62cd\u8a8c\u300d",
         "url": "deprecated",
         "xml": "./output/xml/mp_ustc_main.xml",
         "backupURL": "https://rss-cdn.tiankaima.dev/backup/xml/mp_ustc_main.xml"
