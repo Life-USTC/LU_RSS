@@ -38,7 +38,7 @@
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_graduate_student_union.xml
 
-* 公众号「旅拍誌」:
+* 公众号「中国科学技术大学」:
 > [mp_ustc_main.xml](/xml/mp_ustc_main.xml)
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_main.xml
