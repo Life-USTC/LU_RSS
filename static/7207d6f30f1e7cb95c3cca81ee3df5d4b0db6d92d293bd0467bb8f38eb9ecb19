@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>        	瀚海教学网
+    
+</title> 
+<script src="/js/jquery.min.js" type="text/javascript" ></script>
+<input type="hidden" id="fidflag" value="41967" />
+<input type="hidden" id="dateflag" value="2023-07-27" />
+<input type="hidden" id="sendphoneckenc" value="efe3be80dcdd2684bf15adeceaffb02b" />
+
+<script src="/setcookie.jsp?fid=41967"  type="text/javascript"></script>
+<script type='text/javascript' src='/js/jquery.cookie.js'></script><link href="/portal/ustc/css/slider.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+<!--[if IE 6]>
+<script src="/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+ 	DD_belatedPNG.fix('* ,img');
+    DD_belatedPNG.fix('* ,background');
+</script>
+<![endif]-->
+</head>
+<body>
+<script src="/topjs?index=1"  type="text/javascript"></script>
+<div class="l-main-center l-main-col clearf">
+	    		<div class="l_item_box4 fl">
+		<div class="w_head_main">
+			<ul class="w_head_nott fl">
+				<li class="w_headn">公告通知</li>
+			</ul>
+			<a  href="/portal/news/notice"  class="w_more fr">更多</a>
+			<div class="clear"></div>
+		</div>
+		<div class="l_note_news">
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">27</div>
+					<div class="l-nl-bottom">2023-07</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=20" title="平台维护通知"  target="_blank" >平台维护通知</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">16</div>
+					<div class="l-nl-bottom">2021-11</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=19" title="关于中国科学技术大学“瀚海教学网”上线试运行的通知"  target="_blank" >关于中国科学技术大学“瀚海教学网”上线试运行的通知</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">12</div>
+					<div class="l-nl-bottom">2021-11</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=15" title="瀚海教学网录屏课程使用说明"  target="_blank" >瀚海教学网录屏课程使用说明</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">12</div>
+					<div class="l-nl-bottom">2021-11</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=12" title="瀚海教学网文档使用说明"  target="_blank" >瀚海教学网文档使用说明</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">04</div>
+					<div class="l-nl-bottom">2021-11</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=13" title="关于2021级本科生“科学与社会”研讨课之曹臻研究员报告会的通知"  target="_blank" >关于2021级本科生“科学与社会”研讨课之曹臻研究员报告会的通知</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">27</div>
+					<div class="l-nl-bottom">2021-09</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=18" title="关于2021级本科生“科学与社会”研讨课之张荣桥研究员报告会的通知"  target="_blank" >关于2021级本科生“科学与社会”研讨课之张荣桥研究员报告会的通知</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+							    			<div class="l_news-list clearf">
+				<div class="l_nlist-l fl">
+					<div class="l_nl-top">19</div>
+					<div class="l-nl-bottom">2021-07</div>
+				</div>
+				<div class="l_nlist-r fl">
+					<h1 class="l_nr_title">
+						<a href="/portal/news/info?id=17" title="2021年秋季学期本科生选课通知"  target="_blank" >2021年秋季学期本科生选课通知</a>
+					</h1>
+				</div>
+				<div class="clear"></div>
+			</div>
+					</div>
+	</div>
+			    			<div class="l_item_box6 fl">
+		<div class="w_head_main">
+			<ul class="w_head_nott fl">
+				<li class="w_headn">我的应用</li>
+			</ul>
+						<div class="clear"></div>
+		</div>
+		<ul class="l-myapps-item clearf">
+							    			<li>
+				<a href="https://passport.ustc.edu.cn/login?service=https://jw.ustc.edu.cn/ucas-sso/login" class="l-myapps-img" title="综合教务系统"><img src="https://cs.course.ustc.edu.cn/star3/origin/a90145c91f087c1aef0beeabfaa438c2.png" /></a>
+				<a href="https://passport.ustc.edu.cn/login?service=https://jw.ustc.edu.cn/ucas-sso/login" class="l-myapps-text" title="综合教务系统">综合教务系统</a>
+			</li>
+							    			<li>
+				<a href="https://catalog.ustc.edu.cn/query/lesson" class="l-myapps-img" title="公共查询"><img src="https://cs.course.ustc.edu.cn/star3/origin/ce6141748e72acc5d9aabddd653acbbb.png" /></a>
+				<a href="https://catalog.ustc.edu.cn/query/lesson" class="l-myapps-text" title="公共查询">公共查询</a>
+			</li>
+							    			<li>
+				<a href="https://passport.ustc.edu.cn/login?service=https%3a%2f%2fwww.bb.ustc.edu.cn%2fwebapps%2fbb-SSOIntegrationDemo-BBLEARN%2fexecute%2fauthValidate%2fcustomLogin%3freturnUrl%3dhttp%3a%2f%2fwww.bb.ustc.edu.cn%2fwebapps%2fportal%2fframeset.jsp%26authProviderId%3d_103_1" class="l-myapps-img" title="Bb网络教学平台"><img src="https://cs.course.ustc.edu.cn/star3/origin/04197327054850840875595c2768c5a4.png" /></a>
+				<a href="https://passport.ustc.edu.cn/login?service=https%3a%2f%2fwww.bb.ustc.edu.cn%2fwebapps%2fbb-SSOIntegrationDemo-BBLEARN%2fexecute%2fauthValidate%2fcustomLogin%3freturnUrl%3dhttp%3a%2f%2fwww.bb.ustc.edu.cn%2fwebapps%2fportal%2fframeset.jsp%26authProviderId%3d_103_1" class="l-myapps-text" title="Bb网络教学平台">Bb网络教学平台</a>
+			</li>
+							    			<li>
+				<a href="https://ot.ustc.edu.cn/" class="l-myapps-img" title="蜗壳学社"><img src="https://cs.course.ustc.edu.cn/star3/origin/0b006579f143048457bd876cf1d3223f.png" /></a>
+				<a href="https://ot.ustc.edu.cn/" class="l-myapps-text" title="蜗壳学社">蜗壳学社</a>
+			</li>
+							    			<li>
+				<a href="https://tam.cmet.ustc.edu.cn/zjlogin.do" class="l-myapps-img" title="助教管理系统"><img src="https://cs.course.ustc.edu.cn/star3/origin/7720c64c1476985539d32b14d3f38d04.png" /></a>
+				<a href="https://tam.cmet.ustc.edu.cn/zjlogin.do" class="l-myapps-text" title="助教管理系统">助教管理系统</a>
+			</li>
+							    			<li>
+				<a href="https://passport.ustc.edu.cn/login?service=https%3A%2F%2Ftqm.ustc.edu.cn%2FDealSSO.ashx%2F%3Funiversitycode%3D10358_1" class="l-myapps-img" title="教学质量管理"><img src="https://cs.course.ustc.edu.cn/star3/origin/d7a47de97c9e6365d7d2fc1ea79ae7da.png" /></a>
+				<a href="https://passport.ustc.edu.cn/login?service=https%3A%2F%2Ftqm.ustc.edu.cn%2FDealSSO.ashx%2F%3Funiversitycode%3D10358_1" class="l-myapps-text" title="教学质量管理">教学质量管理</a>
+			</li>
+							    			<li>
+				<a href="https://passport.ustc.edu.cn/login?service=http%3A%2F%2Fetis.ustc.edu.cn%3A80%2Fcas%2Flogin" class="l-myapps-img" title="实践教学系统"><img src="https://cs.course.ustc.edu.cn/star3/origin/fb1e9914f9ce54cb6fd5d91258335fdd.png" /></a>
+				<a href="https://passport.ustc.edu.cn/login?service=http%3A%2F%2Fetis.ustc.edu.cn%3A80%2Fcas%2Flogin" class="l-myapps-text" title="实践教学系统">实践教学系统</a>
+			</li>
+							    			<li>
+				<a href="https://passport.ustc.edu.cn/login?service=http%3A%2F%2Fxnfz.cmet.ustc.edu.cn%2Fvirexp%2FcasLogin" class="l-myapps-img" title="虚拟仿真平台"><img src="https://cs.course.ustc.edu.cn/star3/origin/47fe981e43478c193c57ff34dbb981cb.png" /></a>
+				<a href="https://passport.ustc.edu.cn/login?service=http%3A%2F%2Fxnfz.cmet.ustc.edu.cn%2Fvirexp%2FcasLogin" class="l-myapps-text" title="虚拟仿真平台">虚拟仿真平台</a>
+			</li>
+					</ul>
+	</div>
+		    			    			    				</div>
+        <div class="l-main-col2 	graybg ">
+    	<div class="l-main-center clearf">
+    		        		<div class="l_item_box7 fl">
+        			<div class="w_head_main">
+        				<ul class="w_head_nott fl">
+        					<li class="w_headn">推荐课程</li>
+        				</ul>
+        				        				<a href="/portal/schoolCourseInfo/columnCourse?columnId=9"  target="_blank"  class="w_more fr">更多</a>
+        				<div class="clear"></div>
+        			</div>
+    				        				<div class="l-course-box">
+            				<div class="fl">
+            					<ul class="l-cn-item clearf">
+            														                						<li class="l-cn-list">
+            							<a class="l-cn-img" href="/portal/courseweb/45.html"  target="_blank" >
+            								<img src="/face/courseFace?courseId=419670000000348" />
+            							</a>
+            							<dl class="l-cn-text">
+            								<dt><a href="/portal/courseweb/45.html"  target="_blank"  title="瀚海教学网-学生端使用录屏课程">瀚海教学网-学生端使用录屏...</a></dt>
+            								<dd class="clearf">
+            									<p class="l-cn-icon fr"><i></i>9754</p>
+            									    												<p class="fl">cmet</p>
+            								</dd>
+            							</dl>
+            						</li>
+																	                						<li class="l-cn-list">
+            							<a class="l-cn-img" href="/portal/courseweb/46.html"  target="_blank" >
+            								<img src="/face/courseFace?courseId=419670000000347" />
+            							</a>
+            							<dl class="l-cn-text">
+            								<dt><a href="/portal/courseweb/46.html"  target="_blank"  title="瀚海教学网-教师端使用录屏课程">瀚海教学网-教师端使用录屏...</a></dt>
+            								<dd class="clearf">
+            									<p class="l-cn-icon fr"><i></i>4176</p>
+            									    												<p class="fl">cmet</p>
+            								</dd>
+            							</dl>
+            						</li>
+								            					</ul>
+            				</div>
+            			</div>
+    				        		</div>
+    		    		<div class="l_item_box3 fl columnbox_1">
+    		</div>
+    	</div>
+    </div>
+        <div id="column2" style="display:none">
+    	    		<div class="w_head_main">
+    			<ul class="w_head_nott fl">
+    				<li class="w_headn">热门课程</li>
+    			</ul>
+    			<a  href="/portal/schoolCourseInfo/recommendCourse"   target="_blank"  class="w_more fr">更多</a>
+    			<div class="clear"></div>
+    		</div>
+    		<div class="l-course-rank">
+    			<ul class="l_crank_item clearf">
+    										            				<li class="clearf">
+        					<p class="fr"><i></i>118</p>
+        					<span class="l-ntn01 fl">1</span>
+        					<a class="fl" href="/portal/courseweb/47.html" target="_blank"> 测试227</a>
+        				</li>
+    										            				<li class="clearf">
+        					<p class="fr"><i></i>1483</p>
+        					<span class="l-ntn01 fl">2</span>
+        					<a class="fl" href="/portal/courseweb/46.html" target="_blank"> 瀚海教学网-教师端使用录屏课程</a>
+        				</li>
+    				    			</ul>
+    		</div>
+    	    </div>
+        <div class="l-main-col2 ">
+    	<div class="l-main-center clearf">
+    		        		<div class="l_item_box7 fl">
+        			<div class="w_head_main">
+        				<ul class="w_head_nott fl">
+        					<li class="w_headn">课程中心</li>
+        				</ul>
+        				        				<ul class="l-tab-box01 fl">
+        					                                                            <li  class="active" >精品课程</li>
+        					                                                            <li >旁听课程</li>
+        					                        </ul>
+        				        				<a href="/portal/schoolCourseInfo/columnCourse?columnId=93011"  target="_blank"  class="w_more fr">更多</a>
+        				<div class="clear"></div>
+        			</div>
+    				                        <div class="l-course-tab">
+    						    							<div class="l-course-box" >
+                    				<div class="fl">
+                    					<ul class="l-cn-item clearf">
+    									                    					</ul>
+                    				</div>
+                    			</div>
+    						    							<div class="l-course-box"  style="display:none">
+                    				<div class="fl">
+                    					<ul class="l-cn-item clearf">
+    									    										    										                    						<li class="l-cn-list">
+                    							<a class="l-cn-img" href="/portal/coursedetail?courseid=419670000002090"  target="_blank" >
+                    								<img src="https://p.ananas.chaoxing.com/star3/270_169/6ce77a10dd3268daa7ba6c93e5e76459.jpg" />
+                    							</a>
+                    							<dl class="l-cn-text">
+                    								<dt><a href="/portal/coursedetail?courseid=419670000002090"  target="_blank"  title="2023年春季学期青年教师教学能力培养">2023年春季学期青年教师教...</a></dt>
+                    								<dd class="clearf">
+                    									<p class="l-cn-icon fr"><i></i>111</p>
+                    									<p class="fl">                											杨阳                 										</p>
+                    								</dd>
+                    							</dl>
+                    						</li>
+                						                    					</ul>
+                    				</div>
+                    			</div>
+    						    					</div>
+    				        		</div>
+    		    		<div class="l_item_box3 fl columnbox_3">
+    		</div>
+    	</div>
+    </div>
+        <div class="l-main-col2 ">
+    	<div class="l-main-center clearf">
+    		    		<div class="l_item_box3 fl columnbox_4">
+    		</div>
+    	</div>
+    </div>
+	<div class="l-recommend-box graybg">
+	<div class="l-main-center">
+		<div class="w_head_main">
+			<ul class="w_head_nott fl">
+				<li class="w_headn">推荐资源</li>
+			</ul>
+			<ul class="l-tab-box fl">
+				<li class="active">校本资源</li>
+				                	    								                	    				    				<li>国内资源</li>
+    								                	    				    				<li>国外资源</li>
+    								                	    				    				<li>超星资源</li>
+    											</ul>
+			<a href="https://res.ustc.edu.cn/" target="_blank"  class="w_more fr">更多</a>
+			<div class="clear"></div>
+		</div>
+		<div class="l-course-tab">
+			<div class="l-course-box clearf">
+				<ul class="smallSlider clearf slider2" id="slider2">
+										<li class="slide-list">
+						<a class="l-cn-img" href="http://res.ustc.edu.cn/index?staid=7911" title="数学与应用数学"   target="_blank" >
+							<img src="https://mooc.course.ustc.edu.cn/img/img_default.png" />
+						</a>
+						<dl class="l-cn-text">
+							<dt><a href="http://res.ustc.edu.cn/index?staid=7911" title="数学与应用数学"    target="_blank" >数学与应用数学</a></dt>
+						</dl>
+					</li>
+										<li class="slide-list">
+						<a class="l-cn-img" href="http://res.ustc.edu.cn/index?staid=7910" title="计算机应用技术"   target="_blank" >
+							<img src="https://mooc.course.ustc.edu.cn/img/img_default.png" />
+						</a>
+						<dl class="l-cn-text">
+							<dt><a href="http://res.ustc.edu.cn/index?staid=7910" title="计算机应用技术"    target="_blank" >计算机应用技术</a></dt>
+						</dl>
+					</li>
+										<li class="slide-list">
+						<a class="l-cn-img" href="http://res.ustc.edu.cn/index?staid=7902" title="人工智能"   target="_blank" >
+							<img src="https://mooc.course.ustc.edu.cn/img/img_default.png" />
+						</a>
+						<dl class="l-cn-text">
+							<dt><a href="http://res.ustc.edu.cn/index?staid=7902" title="人工智能"    target="_blank" >人工智能</a></dt>
+						</dl>
+					</li>
+										<li class="slide-list">
+						<a class="l-cn-img" href="http://res.ustc.edu.cn/index?staid=7903" title="物联网"   target="_blank" >
+							<img src="https://mooc.course.ustc.edu.cn/img/img_default.png" />
+						</a>
+						<dl class="l-cn-text">
+							<dt><a href="http://res.ustc.edu.cn/index?staid=7903" title="物联网"    target="_blank" >物联网</a></dt>
+						</dl>
+					</li>
+										<li class="slide-list">
+						<a class="l-cn-img" href="http://res.ustc.edu.cn/index?staid=7904" title="人文学院"   target="_blank" >
+							<img src="https://mooc.course.ustc.edu.cn/img/img_default.png" />
+						</a>
+						<dl class="l-cn-text">
+							<dt><a href="http://res.ustc.edu.cn/index?staid=7904" title="人文学院"    target="_blank" >人文学院</a></dt>
+						</dl>
+					</li>
+									</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+			<div id="picture_2" style="display:none">
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://book.sciencereading.cn/shop/main/Login/shopFrame.do" title="科学文库"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/8bd5d1af01d04e1945cc8607fc4d2923.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://book.sciencereading.cn/shop/main/Login/shopFrame.do" title="科学文库"   target="_blank" >科学文库</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://www.keledge.com/wrap/index" title="可知电子书"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/d5ed654d3be720ac53b405903d608fdd.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://www.keledge.com/wrap/index" title="可知电子书"   target="_blank" >可知电子书</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="http://www.libvideo.com/" title="知识视界科教视频"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/af0f5c2a7d68ec467abdb0e821dc1a0b.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="http://www.libvideo.com/" title="知识视界科教视频"   target="_blank" >知识视界科教视频</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://lib-ustc.wqxuetang.com/#/" title="文泉学堂知识库"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/ec2ac2570e14fbb8563c7e43e649d02d.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://lib-ustc.wqxuetang.com/#/" title="文泉学堂知识库"   target="_blank" >文泉学堂知识库</a></dt>
+    		</dl>
+    	</li>
+    	    </div>
+			<div id="picture_3" style="display:none">
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="http://e-learning.51cto.com/" title="51CTO学院"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/0eeaa6732709de42b3c10ae081e95da4.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="http://e-learning.51cto.com/" title="51CTO学院"   target="_blank" >51CTO学院</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://www.scitation.org/" title="AIP ebook"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/170a84511cecaf3a69a46a6cd070d357.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://www.scitation.org/" title="AIP ebook"   target="_blank" >AIP ebook</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://link.springer.com/search?facet-content-type=%22Book%22&showAll=false" title="Springer ebook"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/4efc3779a7c48f14e9477bf3011b259a.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://link.springer.com/search?facet-content-type=%22Book%22&showAll=false" title="Springer ebook"   target="_blank" >Springer ebook</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="http://www.itextbook.cn/" title="Itextbook（爱教材）电子书库"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/675825641688670969d380421ce88269.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="http://www.itextbook.cn/" title="Itextbook（爱教材）电子书库"   target="_blank" >Itextbook（爱教材）电子书库</a></dt>
+    		</dl>
+    	</li>
+    	    </div>
+			<div id="picture_4" style="display:none">
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://www.xueyinonline.com/" title="学银在线"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/49c5735b4f88336b992519f01446647e.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://www.xueyinonline.com/" title="学银在线"   target="_blank" >学银在线</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://qikan.chaoxing.com/" title="超星期刊"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/a8782a2ed918659f0a0292782f802d22.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://qikan.chaoxing.com/" title="超星期刊"   target="_blank" >超星期刊</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="https://edu.sslibrary.com" title="超星电子图书"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/a3b2adfa06e6872203fe28377cd67d22.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="https://edu.sslibrary.com" title="超星电子图书"   target="_blank" >超星电子图书</a></dt>
+    		</dl>
+    	</li>
+    	    	<li class="slide-list">
+    		<a class="l-cn-img" href="http://www.duxiu.com" title="读秀知识库"   target="_blank" >
+    			<img src="https://cs.course.ustc.edu.cn/star3/origin/688115f9b538739d384557ce3f3ccc3b.png" />
+    		</a>
+    		<dl class="l-cn-text">
+    			<dt><a href="http://www.duxiu.com" title="读秀知识库"   target="_blank" >读秀知识库</a></dt>
+    		</dl>
+    	</li>
+    	    </div>
+	<div id="tiezi" style="display:none">
+	<div class="l_item_box3 fl">
+		<div class="w_head_main">
+			<ul class="w_head_nott fl">
+				<li class="w_headn">蜗壳学社</li>
+			</ul>
+			<ul class="l-tab-box2 fl">
+				<li class="active">最新</li>
+				<li>最热</li>
+			</ul>
+			<a href="https://ot.ustc.edu.cn" class="w_more fr">更多</a>
+			<div class="clear"></div>
+		</div>
+				<div class="l-topic-tab">
+    		<ul class="l-hot-posts">
+    			    			    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn01  fl">1</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >缪柏其 概率论与数理统计 第三章第25题</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">概率论与数理统计</span>
+    						    						    						<span class="l-hot-icon fl">1</span>
+    					</div>
+    				</div>
+    			</li>
+    			    			    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn02  fl">2</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >史济怀习题1.1-8提问</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">复变函数</span>
+    						    						    						<span class="l-hot-icon fl">1</span>
+    					</div>
+    				</div>
+    			</li>
+    			    			    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn03  fl">3</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >两道级数题</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">数学分析</span>
+    						    						    						<span class="l-hot-icon fl">3</span>
+    					</div>
+    				</div>
+    			</li>
+    			    			    			<li class="clearf">
+    				<span class="l-hot-span  fl">4</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >两道数分期末题</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">数学分析</span>
+    						    						    						<span class="l-hot-icon fl">3</span>
+    					</div>
+    				</div>
+    			</li>
+    			    			    			<li class="clearf">
+    				<span class="l-hot-span  fl">5</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >【完结】线性代数A1思考题16</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">线性代数</span>
+    						    						    						<span class="l-hot-icon fl">2</span>
+    					</div>
+    				</div>
+    			</li>
+    			    			     		</ul>
+    		<ul class="l-hot-posts" style="display:none">
+    			    				    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn01  fl">1</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >资源合集（已停用）</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">线性代数</span>
+    						    						    						<span class="l-hot-icon fl">52</span>
+    					</div>
+    				</div>
+    			</li>
+    			    				    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn02  fl">2</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >讨论贴</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">复变函数</span>
+    						    						    						<span class="l-hot-icon fl">32</span>
+    					</div>
+    				</div>
+    			</li>
+    			    				    			<li class="clearf">
+    				<span class="l-hot-span  l-ntn03  fl">3</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >关于平台的使用和发展建议</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">系统使用</span>
+    						    						    						<span class="l-hot-icon fl">31</span>
+    					</div>
+    				</div>
+    			</li>
+    			    				    			<li class="clearf">
+    				<span class="l-hot-span  fl">4</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >15-16第二学期(B1)期末第4题</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">线性代数</span>
+    						    						    						<span class="l-hot-icon fl">21</span>
+    					</div>
+    				</div>
+    			</li>
+    			    				    			<li class="clearf">
+    				<span class="l-hot-span  fl">5</span>
+    				<div class="l-hot-text fl">
+    					<h3 class="overhidden"><a  href="javascript:alert('您需要登录才能访问该栏目，请登录！');" >19-20(B1)期末第5题</a></h3>
+    					<div class="l-hot-detail clearf">
+    						    						<span class="l-hot-btn fr bgBlue">数学类</span>
+    						    						<span class="l-hot-btn fr bgYellow">数学分析</span>
+    						    						    						<span class="l-hot-icon fl">21</span>
+    					</div>
+    				</div>
+    			</li>
+    			    				     		</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 大数据 -->
+<div class="l_bigdata_box">
+	<div class="l_bigdata_bg"></div>
+	<div class="l_bigdata_text l-main-center">
+		<h3 class="l_bigdata_title">大数据</h3>
+												<ul class="l_bigdata_item">
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>68420</dt>
+					<dd>平台人数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>9228</dt>
+					<dd>教师数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>0</dt>
+					<dd>在线教师数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>1589 </dt>
+					<dd>教务课程数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+										<dt>1393 </dt>
+					<dd>全校作业量</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+										<dt>2</dt>
+					<dd>今日活跃度</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt></dt>
+					<dd>总访问量</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>61202</dt>
+					<dd> 学生数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>2</dt>
+					<dd>在线学生数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+					<dt>1667</dt>
+					<dd>课程总数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+										<dt>140 </dt>
+					<dd>全校试卷数</dd>
+				</dl>
+			</li>
+			<li class="l_bigdata_list">
+				<dl class="l_bigdata_dl">
+										<dt> 0</dt>
+					<dd>全校资源数</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- 活跃趋势 -->
+<div class="l_active_box">
+	<div class="wrap">
+		<div class="l_active_content">
+			<div class="l_active_top">
+				<ul class="px_mb_tabitem">
+					<li class="px_mb_tablist"><a href="javascript:void(0)" title="活跃趋势24小时">活跃趋势24小时</a></li>
+					<li class="px_mb_tablist curr"><a href="javascript:void(0)" title="近七日师生活跃度对比">近七日师生活跃度对比</a></li>
+					<li class="px_mb_tablist"><a href="javascript:void(0)" title="院系学生活跃度排行（周）">院系学生活跃度排行（周）</a></li>
+				</ul>
+			</div>
+			<div class="l_active_bottom">
+				<div class="l_active_item" id="optionC1" style="display: none;"></div>
+				<div class="l_active_item" id="optionC2"></div>
+				<div class="l_active_item" id="optionC3" style="display: none;"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/footerjs"  type="text/javascript"></script>
+<script src="/js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/portal/szptnew/js/myecharts.js?t=2" type="text/javascript" charset="utf-8"></script>
+<script src="/portal/szptnew/js/myecharts2.js?t=3" type="text/javascript" charset="utf-8"></script>
+<script>
+$('#slider1').bxSlider({
+  mode: 'fade',
+  speed: 1000,
+  auto: true,
+  pager: true,
+  controls: false //隐藏左右按钮
+});
+
+$(function () {
+var sliderSmhtml =$("#slider2").html();
+  // 小轮播
+  var sliderSm = $('.slider2').bxSlider({
+    slideWidth: 260,
+    auto: true,
+    infiniteLoop: true,
+    autoControls: true,
+    pager: false,
+    moveSlides: 1,
+    minSlides: 4,
+    maxSlides: 4,
+    pause: 3000,
+    slideMargin: 20
+  });
+  // 是否轮播
+ 
+ setTimeout(function () {
+    if (sliderSm.getSlideCount() <= 4) {
+      sliderSm.destroySlider();
+    }
+  }, 60);
+// slider-tab切换
+  $(document).on("click", ".l-tab-box li", function () { 	
+	console.log(sliderSmhtml)
+    	$(this).addClass("active").siblings().removeClass("active")
+        $(this).parents(".w_head_main").next().find(".l-course-box").html("")
+    	if ($(this).index() == 0) {
+			var html ='<ul class="smallSlider clearf slider2">'+ sliderSmhtml+'</ul>'
+    		$(this).parents(".w_head_main").next().find(".l-course-box").append(html);
+    	}else if ($(this).index() == 1) {
+            var html ='<ul class="smallSlider clearf slider2">'+ $("#picture_2").html()+'</ul>'
+    		$(this).parents(".w_head_main").next().find(".l-course-box").append(html);
+    	}else if ($(this).index() == 2) {
+			var html ='<ul class="smallSlider clearf slider2">'+ $("#picture_3").html()+'</ul>'
+    		$(this).parents(".w_head_main").next().find(".l-course-box").append(html);
+    	}else if ($(this).index() == 3) {
+			var html ='<ul class="smallSlider clearf slider2">'+ $("#picture_4").html()+'</ul>'
+    		$(this).parents(".w_head_main").next().find(".l-course-box").append(html);
+    	}
+    	var sliderSm = $(".slider2").bxSlider({
+          slideWidth: 260,
+          auto: true,
+          infiniteLoop: true,
+          autoControls: true,
+          pager: false,
+          moveSlides: 1,
+          minSlides: 4,
+          maxSlides: 4,
+          pause: 3000,
+          slideMargin: 20
+        });
+       setTimeout(function () {
+        if (sliderSm.getSlideCount() <= 4) {
+          sliderSm.destroySlider();
+        }
+      }, 10);
+  })
+});
+
+// tab切换
+$(document).on("click", ".l-tab-box01 li", function () {
+  $(this).addClass("active").siblings().removeClass("active");
+  $(this).parents(".w_head_main").next().find(".l-course-box").eq($(this).index()).show().siblings().hide()
+})
+
+$(document).on("click", ".l-tab-box2 li", function () {
+  $(this).addClass("active").siblings().removeClass("active");
+  $(this).parents(".w_head_main").next().find(".l-hot-posts").eq($(this).index()).show().siblings().hide()
+})
+
+//填充第二个栏目
+var columnCourse2 = $("#column2").html();
+if(columnCourse2){
+	$("#column2").remove();
+	$(".columnbox_1").html(columnCourse2);
+}
+
+var tiezi = $("#tiezi").html();
+if(tiezi){
+	$("#tiezi").remove();
+	$(".columnbox_3").html(tiezi);
+}
+
+    //活跃趋势
+    // 活跃趋势24小时
+    var dataBX1 = ['09:00 2023-7-26','10:00 2023-7-26','11:00 2023-7-26','12:00 2023-7-26','13:00 2023-7-26','14:00 2023-7-26','15:00 2023-7-26','16:00 2023-7-26','17:00 2023-7-26','18:00 2023-7-26','19:00 2023-7-26','20:00 2023-7-26','21:00 2023-7-26','22:00 2023-7-26','23:00 2023-7-26','00:00 2023-7-27','01:00 2023-7-27','02:00 2023-7-27','03:00 2023-7-27','04:00 2023-7-27','05:00 2023-7-27','06:00 2023-7-27','07:00 2023-7-27','08:00 2023-7-27','09:00 2023-7-27'];
+	var dataC11 = [3,0,3,1,1,7,3,3,1,3,2,0,2,2,0,0,0,0,0,0,0,0,0,0,4];
+	var dataC12 = [0,1,0,0,0,0,3,12,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    MyECharts.RenderChart(MyECharts.ChartOptionTemplates.Line(dataBX1, dataC11, dataC12), 'optionC1');
+    // 近七日师生活跃度对比
+	var dataBX2 = ['2023-07-20','2023-07-21','2023-07-22','2023-07-23','2023-07-24','2023-07-25','2023-07-26','2023-07-27'];
+	var dataC21 = [3,2,0,6,9,9,7,0];
+	var dataC22 = [297,311,33,37,43,23,23,4];
+    MyECharts.RenderChart(MyECharts.ChartOptionTemplates.Line(dataBX2, dataC21, dataC22), 'optionC2');
+    // 院系学生活跃度排行（周）
+    var dataBX3 = ['合肥物质研究院' ,'火灾科学国家重点实验室' ,'国家同步辐射实验室' ,'计算机科学与技术系' ,'核科学技术学院' ,'苏州纳米技术与纳米仿生研究所' ,'微电子学院' ,'电子工程与信息科学系' ,'苏州生物医学工程技术研究所' ,'大数据学院' ,'金属所' ];
+    var dataC31 = [];
+    var dataC32 = [145 ,63 ,54 ,49 ,48 ,42 ,40 ,37 ,32 ,29 ,28 ];
+    MyECharts3.RenderChart(MyECharts3.ChartOptionTemplates.Line(dataBX3, dataC31,dataC32), 'optionC3');
+
+    // tab切换
+    $(".px_mb_tablist").on("click", function () {
+        $(this).addClass("curr").siblings().removeClass("curr");
+        $(".l_active_item").eq($(this).index()).show().siblings(".l_active_item").hide();
+        mychw.resize();
+        mychw3.resize();
+    })
+    window.addEventListener("resize", function () {
+        mychw3.resize();
+        mychw.resize();
+    });
+</script>
+</body>
+</html>
