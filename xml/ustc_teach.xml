@@ -12,12 +12,203 @@
 	<atom:link href="https://rss-cdn.tiankaima.dev/static/28d1c840bcd716d558bc891f9776bc1f9a22dc1b0ff520b1185c812fd9463eca" rel="self" type="application/rss+xml" />
 	<link>https://www.teach.ustc.edu.cn</link>
 	<description>中国科学技术大学教务处主页</description>
-	<lastBuildDate>Thu, 03 Aug 2023 05:43:29 +0800</lastBuildDate>
+	<lastBuildDate>Fri, 04 Aug 2023 08:28:39 +0800</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.0.17</generator>
 	<item>
+		<title>2023年长三角研究型大学联盟教学实践基地共建共享项目思岚无人驾驶创新训练营报名通知</title>
+		<link>https://www.teach.ustc.edu.cn/notice/notice-info/16958.html</link>
+		<pubDate>Fri, 04 Aug 2023 08:28:39 +0000</pubDate>
+		<dc:creator><![CDATA[教务处]]></dc:creator>
+				<category><![CDATA[信息]]></category>
+
+		<guid isPermaLink="false">https://www.teach.ustc.edu.cn/?p=16958</guid>
+		<description><![CDATA[一、目标 为充分发挥长三角研究型大学联盟教学实践基地共建共享功能，加强华东高校优秀青年学子的交流与互动，提供学 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>一、目标</h2>
+<p>为充分发挥长三角研究型大学联盟教学实践基地共建共享功能，加强华东高校优秀青年学子的交流与互动，提供学生与产业界接触的机会，上海交通大学与思岚科技有限公司共同发起，面向长三角研究型大学学生开设本次训练营。</p>
+<p>上海思岚科技有限公司（SLAMTEC）成立于2013年，其核心研发团队在机器人自主定位导航及核心传感器方面拥有丰富的研发和实践经验。通过技术研发和产品迭代不断为机器人市场提供高效可靠的解决方案，思岚科技已成为服务机器人自主定位导航解决方案的领航者。思岚ROS教学机器人是针对教育市场研发的一款移动机器人平台，搭载了思岚高性能TOF激光雷达RPLidar S2、Nvdia Jetson nano开发板、深度摄像头等关键部件。</p>
+<p>通过训练营的学习，学生可以学习到自主定位导航算法，掌握激光雷达核心传感器技术原理以及SLAM算法基础，并根据机器人运动底盘设计方法，搭建标准机器人底盘。在学习过程中，授课老师会给学生分享传感器设计原理、算法基础以及机器人运动底盘的设计方法，业内主流的SLAM算法，并应用到实际场景中。</p>
+<h2>二、组织方</h2>
+<dl>
+<dt>主办：</dt>
+<dd>上海交通大学</dd>
+<dd>上海思岚科技有限公司</dd>
+<dt>协办：</dt>
+<dd>长三角各高校教务处</dd>
+</dl>
+<h2>三、时间安排</h2>
+<table class="table2 shrink">
+<thead>
+<tr>
+<th>时间</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023年8月1日-8月18日</td>
+<td>各校学生招募。</td>
+</tr>
+<tr>
+<td>2023年8月19日-8月20日</td>
+<td>训练营名额确认。</td>
+</tr>
+<tr>
+<td>2023年8月29日-9月1日</td>
+<td>线下训练营学习。</td>
+</tr>
+</tbody>
+</table>
+<h2>四、教学内容</h2>
+<table class="table2 shrink">
+<thead>
+<tr>
+<th>时间</th>
+<th>上午</th>
+<th>下午</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一天</td>
+<td>高性能自主导航系统在智能移动机器人中的商业应用；<br />激光雷达原理；</td>
+<td>基于Slamtec ROS-CAR的激光雷达实战；</td>
+</tr>
+<tr>
+<td>第二天</td>
+<td>三维刚体运动运动介绍；<br />非线性优化；</td>
+<td>初识SLAM导航和移动机器人<br />多传感器融合定位</td>
+</tr>
+<tr>
+<td>第三天</td>
+<td>Slamtec ROS-CAR Demo实践；<br />无人驾驶竞赛数据集的采集与训练；</td>
+<td>基于Slamtec ROS-CAR的无人驾驶竞赛调试；</td>
+</tr>
+<tr>
+<td>第四天</td>
+<td>基于Slamtec ROS-CAR的无人驾驶竞赛调试；</td>
+<td>无人驾驶竞赛比赛；<br />颁奖及训练营总结；</td>
+</tr>
+</tbody>
+</table>
+<h2>五、学生招募</h2>
+<p>时间安排：8月28日报道，8月29日-9月1日训练营线下课程。</p>
+<p>授课地点：上海交通大学（闵行校区）学生创新中心。</p>
+<p>活动费用：本次训练营免费，由主办方负责场地、住宿、保险与部分餐饮。参与者自行承担交通与部分餐饮。</p>
+<p>报名要求：至少熟练掌握C/C++/Python/MATLAB中任一编程语言。需具有良好的沟通和协作能力（不同高校的学生将混合编组）。</p>
+<p>招募人数：上海交通大学学生8名，其他长三角高校每校不超过6名，共50名。</p>
+<h2>六、校内报名及选拔（中国科学技术大学）</h2>
+<h3>1．基本条件：</h3>
+<p>我校在读本科生、研究生（仅限已录取我校的2023级硕士生），有较好的数理基础、编程技能和动手能力，对机器人自主定位和导航、无人驾驶等感兴趣，无不良记录，可以全程参与本次活动。</p>
+<h3>2．提供材料：</h3>
+<ol number="1)">
+<li>个人简介：包括姓名、学号、所在院系、个人特长及获奖、科技实践经历（非必须）、联系电话、邮箱等。</li>
+<li>本科已修课程成绩单：教务系统导出版，附在个人简介后</li>
+</ol>
+<h3>3．报名方式：</h3>
+<p>以上报名材料以“<b>思岚无人驾驶长三角训练营2023_姓名_学院</b>”命名的Word或PDF格式文档发送至邮箱：<a href="mailto:lmn@ustc.edu.cn">lmn@ustc.edu.cn</a></p>
+<h3>4．截止时间：</h3>
+<p><b>2023年8月14日下午18:00</b>，以邮件发送时间为准。</p>
+<h3>5．选拔方式：</h3>
+<p>初筛及面试，最终确定不超过6名入选同学参加训练营，学校报销往返交通费。</p>
+<h3>6．联系人：</h3>
+<p>李老师：13965082324</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>2023年长三角研究型大学联盟教学实践基地共建共享项目华为昇思MindSpore创新训练营报名通知</title>
+		<link>https://www.teach.ustc.edu.cn/notice/notice-info/16952.html</link>
+		<pubDate>Fri, 04 Aug 2023 08:26:11 +0000</pubDate>
+		<dc:creator><![CDATA[教务处]]></dc:creator>
+				<category><![CDATA[信息]]></category>
+
+		<guid isPermaLink="false">https://www.teach.ustc.edu.cn/?p=16952</guid>
+		<description><![CDATA[一、目标 为充分发挥长三角研究型大学联盟教学实践基地共建共享功能，加强华东高校优秀青年学子的交流与互动，提供学 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>一、目标</h2>
+<p>为充分发挥长三角研究型大学联盟教学实践基地共建共享功能，加强华东高校优秀青年学子的交流与互动，提供学生与产业界接触的机会，上海交通大学与华为共同发起，面向长三角研究型大学学生开设本次训练营。</p>
+<p>全场景AI框架昇思MindSpore是业界首个全自动并行的框架，且具备全场景协同和全流程极简的特点。昇思MindSpore致力于成为全球主流AI框架，具备一次开发云边端全场景部署、原生支持大模型训练、支持AI+科学计算等关键特性，加速科研创新和产业应用。在大模型能力持续增强的基础上，昇思MindSpore 2.0升级为AI融合框架，原生支持科学智能。</p>
+<p>昇思MindSpore创新实践训练营以实际项目和业界需求为牵引，以学生实践为主线，让学生在实践的过程中主动学习和实践人工智能相关知识，掌握相关技术和工具，跟上业界最新趋势，形成对人工智能行业全局观，通过创新训练营，为持续的创新能力提升打下坚实的基础。</p>
+<p>本训练营从当前最热门的大模型技术为背景，从实践的角度出发，通过动手复现ChatGPT的实现过程，手把手地搭建一个简易版的“ChatGPT”，从而深入了解大型语言模型的构建和原理。本课程将理论与代码进行融合，系统地逐步揭秘ChatGPT、GPT-4背后支持的大型语言类模型（Large Language Model， LLM），旨在让学生深入了解大模型领域知识的同时，真正切实地参与到大模型相关的任务实践中来。</p>
+<h2>二、组织方</h2>
+<dl>
+<dt>主办：</dt>
+<dd>上海交通大学</dd>
+<dd>华为技术有限公司</dd>
+<dd>昇思MindSpore开源社区</dd>
+<dt>协办：</dt>
+<dd>长三角各高校教务处</dd>
+</dl>
+<h2>三、时间安排</h2>
+<table class="table2 shrink">
+<thead>
+<tr>
+<th>时间</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023年8月2日-8月18日</td>
+<td>各校学生招募。</td>
+</tr>
+<tr>
+<td>2023年8月19日-8月20日</td>
+<td>训练营名额确认。</td>
+</tr>
+<tr>
+<td>2023年8月29日-9月1日</td>
+<td>线下训练营学习。</td>
+</tr>
+</tbody>
+</table>
+<h2>四、教学内容</h2>
+<table class="table3 shrink">
+<tbody>
+<tr>
+<td>第一天</td>
+<td>训练营和MindSpore的介绍<br />Transformer<br />BERT</td>
+</tr>
+<tr>
+<td>第二天</td>
+<td>GPT<br />GPT2<br />MindSpore并行</td>
+</tr>
+<tr>
+<td>第三天</td>
+<td>代码预训练<br />Prompt Tuning<br />Instruction Tuning</td>
+</tr>
+<tr>
+<td>第四天</td>
+<td>RLHF<br />结营</td>
+</tr>
+</tbody>
+</table>
+<h2>五、学生招募</h2>
+<p>时间安排：8月28日报道，8月29日-9月1日线下课程，9.1日下午16点结营。</p>
+<p>授课地点：上海交通大学(上海市闵行区东川路800交大学生创新中心)。</p>
+<p>活动费用：本次训练营免费，线下进行，由主办方负责场地、住宿、保险与部分餐饮。参与者自行承担交通与部分餐饮。</p>
+<p>报名要求：至少熟练掌握C/C++/Python/MATLAB中任一编程语言。需具有良好的沟通和协作能力（不同高校的学生将混合编组）。</p>
+<p>招募人数：上海交通大学学生15名，其他长三角高校每校不超过10名，共100名。</p>
+<h2>六、校内报名及选拔（中国科学技术大学）</h2>
+<h3>1．基本条件：</h3>
+<p>我校在读本科生、研究生（仅限已录取我校的2023级硕士生），有较好的数学基础及编程技能，无不良记录，可以全程参与本次活动。</p>
+<h3>2．提供材料：</h3>
+<ol number="1)">
+<li>个人简介：包括姓名、学号、所在院系、数学分析、线性代数、概率论与数理统计及C语言等成绩、个人特长及获奖、科技实践经历（非必须）、联系电话等。</li>
+<li>本科已修课程成绩单：教务系统导出版，附在个人简介后</li>
+</ol>
+<h3>3．报名方式：</h3>
+<p>以上报名材料以“<b>长三角训练营2023_姓名_学院</b>”命名的Word或PDF格式文档发送至邮箱：<a href="mailto:etcis@ustc.edu.cn">etcis@ustc.edu.cn</a></p>
+<h3>4．截止时间：</h3>
+<p><b>2023年8月11日下午18:00</b>，以邮件发送时间为准。</p>
+<h3>5．选拔方式：</h3>
+<p>初筛及面试，最终确定不超过10名入选同学参加训练营，学校报销往返交通费。</p>
+<h3>6．联系人：</h3>
+<p>周老师：18019585228</p>
+]]></content:encoded>
+			</item>
+		<item>
 		<title>瀚海教学网平台维护通知</title>
 		<link>https://www.teach.ustc.edu.cn/notice/notice-info/16934.html</link>
 		<pubDate>Thu, 27 Jul 2023 01:46:55 +0000</pubDate>
@@ -941,146 +1132,6 @@
 <p>蒋最敏教授是复旦大学物理学系教授、教育部高等学校大学物理课程教学指导委员会委员，华东地区高等学校大学物理课程教学工作委员会主任、上海市物理教育教学研究基地（中学物理）主任、上海市“高中物理”教材主编。蒋教授多年来在教学方面贡献卓越，获复旦大学教学名师、复旦大学“钟杨式”好老师称号，上海市育才奖，上海市课程思政示范课程，上海市市级教学成果奖特等奖（第二完成人）。</p>
 <p>讲座中，蒋教授首先指出正确认识世界以及自身在世界中的作用，才能树立正确的世界观、价值观和人生观。物理学物质观念、运动观念、相互作用观念、能量观念等都是认知世界的核心观念，通过物理教学，培养学生树立正确的世界观，是物理学科自身的特点，是物理学的一种优势。物理教师应发挥这一优势，把对学生辩证唯物主义世界观的培养融汇到教学中去。蒋教授从课程质量与课程思政的关系、课程的自身建设和课程思政在课程教学中的实践三个方面展开分享。以自身多年来在力学课程建设中的知识讲授和思政引领的实战经验，针对力学课程中的重要知识点进行拆解，并介绍如何在课程中组织学生开展探究性学习。讲座最后，蒋教授指出课程思政建设与课程质量提高、育人成效提升的内在目标是一致的，课程思政与课程质量相融合是发展的大势所趋，教师的言传身教能对学生产生深远影响，希望物理学教师能积极投入课程建设和课程思政建设中，实现教学相长。在讲座后的交流讨论环节中，我校多位教师就实际课堂上的公式推倒、前置数学知识讲解、课后答疑及探究性学习等问题向蒋老师请教经验，老师们共通有无，分享自身见解。</p>
 <p>此次“师说堂”培训是学校着力推动课程组建设、构建高质量教学团队背景下，教务处教师教学发展中心与学院/部联合举办的第二场讲座，参加讲座的老师们表示蒋教授的分享逻辑缜密，内容详实，定位高，对科大本科生教学的适用性强，所学到的理念和方法可直接应用到后续教学中，颇为受益。教师教学发展中心将持续与学院/部举办主题讲座，更具针对性地助力全校教师全面发展，促进我校教育教学质量持续提升。</p>
-]]></content:encoded>
-			</item>
-		<item>
-		<title>南京大学2023年C9暑期学校报名通知</title>
-		<link>https://www.teach.ustc.edu.cn/notice/notice-exchange/16719.html</link>
-		<pubDate>Mon, 22 May 2023 08:21:46 +0000</pubDate>
-		<dc:creator><![CDATA[教务处]]></dc:creator>
-				<category><![CDATA[C9 院校]]></category>
-		<category><![CDATA[交流]]></category>
-
-		<guid isPermaLink="false">https://www.teach.ustc.edu.cn/?p=16719</guid>
-		<description><![CDATA[按照《九所首批“985工程”建设高等学校人才培养合作与交流协议书》的工作安排，南京大学将组织2023年C9暑期 [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>按照《九所首批“985工程”建设高等学校人才培养合作与交流协议书》的工作安排，南京大学将组织2023年C9暑期学校，具体通知如下：</p>
-<h2>一、活动安排</h2>
-<p>本届暑期学校采用线下授课方式，包含教学活动和参观活动。每位完成学习的学员可获得中文版C9暑期学校结业证书及成绩单。</p>
-<h3>1.教学活动安排</h3>
-<h4>（1）参加“云”科考项目</h4>
-<p><strong>电子科学与工程学院——《集成电路与先进制造国际“云”科考》(时间：7月8日-14日)</strong></p>
-<p>采用校内课程和校外参观相结合的方式，实地参观集成电路产业链中代表先进技术和先进制造的业内名企，实现线上线下、思维-科研-产业上下游贯通，实现三维多角度理解集成电路及其先进制造的现状与未来。</p>
-<p><strong>人工智能学院——《中英数据知识双驱动的人工智能技术应用“云”科考》(时间：7月17-26日)</strong></p>
-<p>利用南京大学在数据驱动的机器学习研究的优势和帝国理工学院在基于知识驱动的逻辑推理方面的研究优势，在南京、苏州开展实地走访，围绕“数据知识双驱动的人工智能技术应用”这一主题展开理论与实践相结合的研讨。</p>
-<h4>（2）选修暑期课程</h4>
-<p>此次暑期学校安排包括8个院系的11门课程，课程列表请见附件《<a href="https://rss-cdn.tiankaima.dev/static/872b1175775505784c91f38e7a5112e296f7806777531d7fd137d8d31e021c73">暑期学校课程汇总（含课程大纲）</a>》，供学生报名参考，具体信息以实际选课为准。选课具体事宜视后续报名录取结果另行通知。</p>
-<table class="table3">
-<thead>
-<tr>
-<th>院系</th>
-<th>课程名称</th>
-<th>学分</th>
-<th>学生人数</th>
-<th>时间</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>匡亚明学院</td>
-<td>交叉学科前沿进展</td>
-<td>1</td>
-<td>10</td>
-<td>6月26日-30日</td>
-</tr>
-<tr>
-<td>电子科学与工程学院</td>
-<td>高级模拟及射频集成电路设计与实践</td>
-<td>5</td>
-<td>8</td>
-<td>6月26日-7月7日</td>
-</tr>
-<tr>
-<td rowspan="4">软件学院</td>
-<td>百度前端技术实战训练营</td>
-<td>2</td>
-<td>5</td>
-<td>6月26日-7月7日</td>
-</tr>
-<tr>
-<td>基于云原生技术的软件开发</td>
-<td>1</td>
-<td>5</td>
-<td>6月26日-7月3日</td>
-</tr>
-<tr>
-<td>自然语言处理应用实践</td>
-<td>1</td>
-<td>5</td>
-<td>6月26日-7月7日</td>
-</tr>
-<tr>
-<td>大语言模型原理与应用</td>
-<td>1</td>
-<td>5</td>
-<td>6月26日-7月7日</td>
-</tr>
-<tr>
-<td>现代工程与应用</td>
-<td>机械加工与先进制造</td>
-<td>1</td>
-<td>10</td>
-<td>7月1日-5日</td>
-</tr>
-<tr>
-<td>大气科学学院</td>
-<td>气象数据分析与绘图</td>
-<td>1</td>
-<td>5</td>
-<td>6月26日-30日</td>
-</tr>
-<tr>
-<td>生命科学学院</td>
-<td>科研融合生物化学主题开放实验</td>
-<td>2</td>
-<td>5</td>
-<td>7月4日-7月8日</td>
-</tr>
-<tr>
-<td>地球科学与工程学院</td>
-<td>岩矿鉴定技能培训</td>
-<td>2</td>
-<td>5</td>
-<td>6月26日-7月3日</td>
-</tr>
-<tr>
-<td>哲学系</td>
-<td>精神分析与现代性反思</td>
-<td>1</td>
-<td>5</td>
-<td>6月26日-7月7日</td>
-</tr>
-</tbody>
-</table>
-<p>注：教学活动的时间可能会调整，以选课时课表中的教学安排为准。</p>
-<h3>2.参观活动安排</h3>
-<p>利用业余时间组织参观活动，分为两部分：第一部分为参观南京大学，包括校史博物馆、图书馆（古籍修复）、天文台（球幕电影）等；第二部分为考察南京历史文化，包括中山陵、中国近现代史博物馆（总统府）、太平天国博物馆（瞻园）、渡江胜利纪念馆。活动相关事宜另行通知。</p>
-<h2>二、报名信息及要求</h2>
-<p>报名对象：2020、2021级在校本科生（因“云”科考项目有固定日程安排，故与选修暑期课程不交叉选择，根据我校教学日历，<strong>建议报名同学选择“云”科考项目</strong>）</p>
-<p>报名时间：即日起至2023年5月29日</p>
-<p>报名方法:</p>
-<p>（1）学生登录<a href="https://rss-cdn.tiankaima.dev/static/92a5a679ecf53c31a086815096c7e2aa89236131dcf828b5257bed557f56b8bc">本科生境内外交流管理系统</a>，查找“南京大学2023年C9暑期学校”填写申请，学生提交申请后，请联系教秘在该管理系统中审核申请。</p>
-<p>（2）请各学院教秘于5月31日18：00前完成学院审核并给出推荐排序。完成线上审核后，需打印推荐学生列表，请学院负责人签字确认并加盖公章后交至老图书馆221室。因名额有限，学校推荐时主要对各学院推荐的前3位同学进行综合考量，决定最终推荐学生。明确我校推荐学生后，通过邮件通知教秘和学生入选结果。</p>
-<h2>三、联系人</h2>
-<p>教务处 边赪媛 63607673 bcy123@ustc.edu.cn<br />
-<aside class="attachments"><h4>本文附件</h4><ul><li id="att1" class="att-xls"><a href="https://rss-cdn.tiankaima.dev/static/872b1175775505784c91f38e7a5112e296f7806777531d7fd137d8d31e021c73">暑期学校教学活动汇总</a><a class="back" href="javascript:history.go(-1)"><img src="https://rss-cdn.tiankaima.dev/static/567f868b030c8057b1e075dd77189b9026a2f7ce3b34586e155c2320b3b97d94" alt="↩" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a></li></ul></aside></p>
-]]></content:encoded>
-			</item>
-		<item>
-		<title>“师说堂”系列培训之长聘教职制度与青年教师职业发展</title>
-		<link>https://www.teach.ustc.edu.cn/notice/notice-info/15970.html</link>
-		<pubDate>Sun, 21 May 2023 13:35:05 +0000</pubDate>
-		<dc:creator><![CDATA[教务处]]></dc:creator>
-				<category><![CDATA[信息]]></category>
-
-		<guid isPermaLink="false">https://www.teach.ustc.edu.cn/?p=15970</guid>
-		<description><![CDATA[2023年5月18日下午，教师教学发展中心“师说堂”系列培训第二十二期——长聘教职制度与青年教师职业发展在第五 [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>2023年5月18日下午，教师教学发展中心“师说堂”系列培训第二十二期——长聘教职制度与青年教师职业发展在第五教学楼5105教室举行。此次培训活动由教师教学发展中心和信息与智能学部联合举办，也是中国计算机学会走进中国科大的主题活动之一。本次活动的主讲嘉宾是清华大学深圳国际研究生院的杨士强教授，讲座由教务处副处长吴强主持，近70位教师参加了此次讲座。</p>
-<figure data-size="1920x1080" class="photo photo-large align-none"><a href="https://rss-cdn.tiankaima.dev/static/b3e7860ee2a03f401afab2fa82e49d33003bef762270b24632e67544522f6179"><img src="https://rss-cdn.tiankaima.dev/static/fb3e7d3bc80f655aa3d45f36c35b91cc3cce1c97edf4e01d99bb28c69511746d" alt="" class="alignnone size-large wp-image-15971" srcset="https://rss-cdn.tiankaima.dev/static/fb3e7d3bc80f655aa3d45f36c35b91cc3cce1c97edf4e01d99bb28c69511746d 790w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305211-480x270.jpg 480w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305211-768x432.jpg 768w" sizes="(max-width: 790px) 100vw, 790px" /></a></figure>
-<p>杨士强教授是清华大学深圳国际研究生院原信息学部首席教授，CCF会士。曾任鹏城实验室党委书记、前沿学术中心（院士工作室）主任，清华大学计算机系党委书记、学位分委员会主席、国家级计算机实验教学示范中心主任等职。杨士强教授长期从事多媒体技术与系统研究，获多媒体领域国际学术期刊（T-CSVT）和国际学术会议（ACM-MM, KDD）等最佳论文奖十余次；多次获清华大学“良师益友”、北京市教学名师、师德先进个人等荣誉称号；并在CCF中工作突出，在2018年获CCF杰出教育奖，2022年获CCF杰出贡献奖。</p>
-<p>讲座伊始，杨士强教授介绍了当前高校人事制度改革的趋势和青年教师成长的内外部环境，并引导老师们思考青年教师如何适应内外部环境有效提升自己。报告中，杨教授指出教师需要明确自己岗位的责任与定位，在不断的反思中逐步成长。为了帮助青年教师更快找到正确的方向，杨教授在报告中从高校教师的职责变迁史、高校教师需妥善处理的八大关系以及切身经验体会等多个方面讲述了“怎样做一个好教师”以及“个人怎么获得好发展”。讲座最后，杨教授鼓励青年教师们做好个人职业生涯规划，树立高目标，在适应环境的前提下，同时积极参与营造和谐的学术生态圈。本次讲座体系完整、内容丰富、案例经典，为我校青年教师在激烈的竞争环境下积极应对挑战和机遇提供了很好的理论指导。</p>
-<figure data-size="1269x715" class="photo photo-large align-none"><a href="https://rss-cdn.tiankaima.dev/static/5e87d16a755c0a3bc4bd6975e87376f01fabae6d58265cf11f59eab3c3eae54f"><img src="https://rss-cdn.tiankaima.dev/static/2b134eb2e77bddd12d512b5fb881cd6d3e917b7095388bef8bff88bf9d8fb4da" alt="" class="alignnone size-large wp-image-15972" srcset="https://rss-cdn.tiankaima.dev/static/2b134eb2e77bddd12d512b5fb881cd6d3e917b7095388bef8bff88bf9d8fb4da 790w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305212-480x270.jpg 480w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305212-768x433.jpg 768w, https://rss-cdn.tiankaima.dev/static/5e87d16a755c0a3bc4bd6975e87376f01fabae6d58265cf11f59eab3c3eae54f 1269w" sizes="(max-width: 790px) 100vw, 790px" /></a></figure>
-<figure data-size="1269x715" class="photo photo-large align-none"><a href="https://rss-cdn.tiankaima.dev/static/5a81eeb485d77a061f7fd91e8e78c4d06ba7e4ddd94dd2647dd65b8b67a347a4"><img src="https://rss-cdn.tiankaima.dev/static/408ad6e8fbe72c3624012cabe2f9fabc0a06f7f2345b9425c991c24330f8c539" alt="" class="alignnone size-large wp-image-15973" srcset="https://rss-cdn.tiankaima.dev/static/408ad6e8fbe72c3624012cabe2f9fabc0a06f7f2345b9425c991c24330f8c539 790w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305213-480x270.jpg 480w, https://www.teach.ustc.edu.cn/wp-content/uploads/2023/05/202305213-768x433.jpg 768w, https://rss-cdn.tiankaima.dev/static/5a81eeb485d77a061f7fd91e8e78c4d06ba7e4ddd94dd2647dd65b8b67a347a4 1269w" sizes="(max-width: 790px) 100vw, 790px" /></a></figure>
-<p>此次“师说堂”培训是学校着力推动课程组建设、构建高质量教学团队背景下，教务处教师教学发展中心与学院/部联合举办的首场讲座，参加讲座的老师们表示杨教授就像一位亲切的长辈把多年的人生经验娓娓道来，给大家未来的职业发展打开了思路，提供了目标，明晰了路径， 是一场不可多得的经验交流会。教师教学发展中心将持续与学院/部举办主题讲座，更具针对性地助力全校教师全面发展，促进我校教育教学质量持续提升。</p>
 ]]></content:encoded>
 			</item>
 	</channel>
