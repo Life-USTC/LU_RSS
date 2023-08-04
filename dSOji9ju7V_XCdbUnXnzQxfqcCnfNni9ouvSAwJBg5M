@@ -1,0 +1,22 @@
+{
+  "seq": 0,
+  "push_id": "632545915",
+  "collapse_id": 0,
+  "ret_code": 10010018,
+  "environment": "dev",
+  "err_msg": "the push title and content was repeat for the pushId:632545915",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
+{
+  "seq": 0,
+  "push_id": "632545929",
+  "collapse_id": 0,
+  "ret_code": 10010018,
+  "environment": "product",
+  "err_msg": "the push title and content was repeat for the pushId:632545929",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
