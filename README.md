@@ -33,7 +33,7 @@
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_graduate_student_union.xml
 
-* 公众号「青春科大」:
+* 公众号「莓辣MAYLOVE」:
 > [mp_ustc_youth_league_committee.xml](/xml/mp_ustc_youth_league_committee.xml)
 >
 > Deployed at: https://rss-cdn.tiankaima.dev/xml/mp_ustc_youth_league_committee.xml
