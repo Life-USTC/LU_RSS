@@ -1,0 +1,22 @@
+{
+  "seq": 0,
+  "push_id": "634030920",
+  "collapse_id": 34030920,
+  "ret_code": 0,
+  "environment": "dev",
+  "err_msg": "NO_ERROR",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
+{
+  "seq": 0,
+  "push_id": "634030931",
+  "collapse_id": 34030931,
+  "ret_code": 0,
+  "environment": "product",
+  "err_msg": "NO_ERROR",
+  "err_msg_zh": "",
+  "result": "{}",
+  "invalid_targe_list": []
+}
