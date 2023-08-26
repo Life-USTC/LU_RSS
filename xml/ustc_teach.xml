@@ -12,7 +12,7 @@
 	<atom:link href="https://rss-cdn.tiankaima.dev/static/28d1c840bcd716d558bc891f9776bc1f9a22dc1b0ff520b1185c812fd9463eca" rel="self" type="application/rss+xml" />
 	<link>https://www.teach.ustc.edu.cn</link>
 	<description>中国科学技术大学教务处主页</description>
-	<lastBuildDate>Sat, 26 Aug 2023 03:31:18 +0800</lastBuildDate>
+	<lastBuildDate>Sat, 26 Aug 2023 03:38:00 +0800</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -148,7 +148,7 @@
 </tr>
 <tr>
 <td>14</td>
-<td>未来技术学院（999）</td>
+<td>未来技术学院(999)</td>
 <td>量子信息科技英才班</td>
 <td>杨淑红</td>
 <td>63600455</td>
