@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://rss-cdn.tiankaima.dev/static/619c3bda03698b5d1e43abcd35cda83e73804ec052474d19ce8cb89f7f27b429"><channel><title>Notices on Life@USTC web</title><link>https://life-ustc.tiankaima.dev/notices/</link><description>Recent content in Notices on Life@USTC web</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 17 Jan 2023 20:31:15 +0800</lastBuildDate><atom:link href="https://rss-cdn.tiankaima.dev/static/021fac1ca5a4ed8a1424c34e8f70c856446a0d1b21763b06cbb051165f49b305" rel="self" type="application/rss+xml"/><item><title>关于科大网络设施的整理</title><link>https://life-ustc.tiankaima.dev/notices/ustc_websites/</link><pubDate>Sun, 20 Aug 2023 16:23:50 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/ustc_websites/</guid><description>本文部分参考自 zzh1996/USTC-Network-Resources (MIT License)，表示感谢。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="https://rss-cdn.tiankaima.dev/static/619c3bda03698b5d1e43abcd35cda83e73804ec052474d19ce8cb89f7f27b429"><channel><title>Notices on Life@USTC web</title><link>https://life-ustc.tiankaima.dev/notices/</link><description>Recent content in Notices on Life@USTC web</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 17 Jan 2023 20:31:15 +0800</lastBuildDate><atom:link href="https://rss-cdn.tiankaima.dev/static/021fac1ca5a4ed8a1424c34e8f70c856446a0d1b21763b06cbb051165f49b305" rel="self" type="application/rss+xml"/><item><title>写给LaTeX用户的Typst入门</title><link>https://life-ustc.tiankaima.dev/notices/typst_for_latex/</link><pubDate>Sat, 02 Sep 2023 19:14:33 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/typst_for_latex/</guid><description>原文地址：Guide for LaTeX users – Typst Documentation
+这篇文章是写给那些已经使用过LaTeX，并想要尝试Typst的用户。 我们将从用户的角度出发，解释这两套系统之间主要的不同。 虽然Typst并不是基于LaTeX构建的，语法也完全不同，但通过这篇文章，你可以了解如何把LaTeX的经验转化过来。
+跟LaTeX一样，Typst是一门基于标记的排版系统[1]。首先在纯文本里编写自己的文档，然后通过一些命令和语法对其进行修饰，最后使用编译器将源文件排版成PDF。在以下几个方面，Typst跟LaTeX之间也存在区别： 日常任务上，Typst使用更为专用的语法 ：这一点类比Markdown。 Typst的命令也更有「原则性」 ：在LaTeX中，你可能需要为不同软件包学习不同的语法和约定，但在Typst中命令都保持一致，所以你只需要理解一些基本的概念。 Typst比LaTeX快得多 ：Typst的编译通常只需要几毫秒而不是几秒，因此编译器都可以提供更加迅速的预览。
+在接下来的部分，我们将回答从LaTeX切换到Typst的一些常见问题。
+怎样创建一个新的、空的文档？ 很简单，你只需要创建一个空的文本文档（文件后缀是.typ）， 无需额外的模板，你可以直接开始编写。
+换行符和LaTeX保持一致，空白一行即可：
+怎样创建段落标题、强调……？ LaTeX使用命令\section来创建段落标题，多级标题分别使用\subsection，\subsubsection 等，根据文档种类的不同，还有\part和\chapter
+在Typst中，标题显得没那么啰嗦，在含有标题的那行，前面加上等号和空格，你就得到了一个第一级标题：= Introduction。 如果需要二级标题，就只需要两个等号== In this paper。 通过在前面加上等号，你可以嵌套任意层级的标题。
+译者注：
+这一点上更接近Markdown中#的作用，在接下来的阅读中你会不断看到这种「Markdown+LaTeX」杂糅的产物，结合这两者分别的痛点，可以更加深入了解Typst设计这些语法的原因。
+斜体 只需要把文本包含在_下划线_ 中
+粗体 则需要包含在*星号* 之中。
+以下是一些常用的标记命令，分别是LaTeX和对应的Typst语法：
+LaTeX Typst 加粗 \textbf{strong} _strong_ 斜体 \emph{emphasis} _emphasis_ 行内代码 \texttt{print(1)} `print(1)` 链接 \url{https://typst.app} https://typst.app 标签 \label{intro} &amp;lt;intro&amp;gt; 引用 \ref{intro} @intro 引文 \cite{humphrey97} @humphrey97 无序列表 itemize \- List 有序列表 enumerate \+ List 术语表 description / Term: List 图表 figure #figure 表 table #table 公式 $x$ align/equation $x$, $ x = y $ 在Typst中使用列表并不需要环境，而使用一种更为轻量的语法。 只需要在每行开头前使用连字符，就可以创建一个无序列表：</description></item><item><title>关于科大网络设施的整理</title><link>https://life-ustc.tiankaima.dev/notices/ustc_websites/</link><pubDate>Sun, 20 Aug 2023 16:23:50 +0800</pubDate><guid>https://life-ustc.tiankaima.dev/notices/ustc_websites/</guid><description>本文部分参考自 zzh1996/USTC-Network-Resources (MIT License)，表示感谢。
 前言 写在新生开学之前，整理下常用的网络设置，以及一些常用的网站/App等，供新同学参考。
 值得注意的是，这里面大部分内容均应该在报到后，在校内进行申请/设置，未报到的新生可能无法正确开通网络通。 文章内容可能过时，如遇问题请邮件咨询网络信息中心
 Warning: 请务必妥善保管自己的邮箱密码 &amp;amp; 统一身份认证密码，使用更强的密码、减少重复使用密码的次数，并尽可能使用密码管理器等来保障自己学校账户的安全。
